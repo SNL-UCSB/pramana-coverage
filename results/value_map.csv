@@ -1,0 +1,659 @@
+field,value,type
+applications,10-min video 0.1-4 Mbps,no need
+applications,12 live services (e.g. YouTube; Netflix on Safari; Dropbox; Google Drive; Mega) in Chrome via Selenium,APP
+applications,Adaptech ABR,USERSPACE_SW
+applications,Amazon,APP
+applications,Amazon Prime Video,APP
+applications,Android Web browser page loads of a copy of CNN home page at WDC server,APP
+applications,Android Web browser page loads of a local copy of CNN home page (107 objects; 6 parallel connections),APP
+applications,Apache httpd,TOOL:httpserver
+applications,Apache server,TOOL:httpserver
+applications,BOLA,APP
+applications,BOLA*,APP
+applications,Buffer*,APP
+applications,CGReplay,USERSPACE_SW
+applications,CNN,APP
+applications,Chrome (ChromeDriver) video sessions of Netflix,APP
+applications,Chrome 91 page loads of 300 Alexa sites with SipLoader,APP
+applications,Chrome 91 page loads of Alexa top-1000 sites,APP
+applications,Chrome 91 page loads of Amazon,APP
+applications,Chrome page load of Amazon with AATF extension,APP
+applications,Chrome page loads of 300 corpus pages with SipLoader ablation variants,APP
+applications,Chrome page loads of YouTube landing page (viewport sweep),APP
+applications,Chrome page loads of dailymail.co.uk,APP
+applications,Chrome page loads of youtube.com,APP
+applications,Chrome page loads with AATF extension (sites not stated),APP
+applications,Chromium page loads of 36 websites via Browsertime (Mahimahi replay; NGINX),APP
+applications,Cisco WebEx (2 clients + media bridge; 720p),APP
+applications,Cisco WebEx (macOS clients; 6-party meeting),APP
+applications,Cisco Webex,APP
+applications,Cisco Webex (Chrome),APP
+applications,Cisco Webex (Chrome; PyAutoGUI),APP
+applications,DASH clients (libdash fork) with BBA,USERSPACE_SW
+applications,DASH video player on Android (buffer-based ABR of Huang et al.),USERSPACE_SW
+applications,DNS over Tor,TOOL:dns
+applications,Dailymotion,APP
+applications,Disney+,APP
+applications,Disney+ via native apps and Chrome,APP
+applications,Disney+ via native apps and browsers,APP
+applications,Dropbox,APP
+applications,Dynamic*,APP
+applications,ESPN video streaming (ABR disabled; highest bitrate),APP
+applications,Edge,APP
+applications,ExoPlayer v2.10.2 (DASH),ANDROID_APP
+applications,ExoPlayer v2.10.2 (DASH; audio C-set),ANDROID_APP
+applications,ExoPlayer v2.10.2 (HLS; A1-first manifest),ANDROID_APP
+applications,ExoPlayer v2.10.2 (HLS; Hsub manifest),ANDROID_APP
+applications,FaceTime,APP
+applications,Fawkes,APP
+applications,Firefox,APP
+applications,Fortnite,APP
+applications,FuguABR video player (Fugu setup; FuguNN vs XatuDist predictor),APP
+applications,Google Drive,APP
+applications,Google Lighthouse,APP
+applications,Google Lighthouse loads of top50 regional site resources,APP
+applications,Google Meet,APP
+applications,Gordon client,USERSPACE_SW
+applications,HBO Max,APP
+applications,HTTP 3 MB requests,TOOL:wget
+applications,HTTP server over ICN or TCP/IP,OWN
+applications,Hangouts (Exp1),APP
+applications,Harpoon traffic generator (MAWI-derived flow sizes),TOOL:flowgen
+applications,Hulu in browser automation,APP
+applications,ICMP echo,TOOL:ping
+applications,IG (Inspector Gadget) client,USERSPACE_SW
+applications,IG crawler (re-implemented; up to 500 links per site),USERSPACE_SW
+applications,ISP DNS,TOOL:dns
+applications,J-QoS CR-WAN,OWN
+applications,M-RTP,USERSPACE_SW
+applications,M-TPUT,USERSPACE_SW
+applications,MSN,APP
+applications,Mega,APP
+applications,Microsoft Teams,APP
+applications,Microsoft Teams vs throughput services (contender grid not stated),APP
+applications,MobileInsight,TOOL:measurement-tool
+applications,Mortal Kombat traces,TOOL:tcpreplay
+applications,NAS ABR and IMDN enhancer,USERSPACE_SW
+applications,NYT,APP
+applications,Netflix,APP
+applications,Netflix video player (paper's own Sammy ABR+pacing vs Netflix production ABR),OWN
+applications,Netflix video player (paper's own Sammy vs production ABR),OWN
+applications,Netflix video session,APP
+applications,PANDA,USERSPACE_SW
+applications,Pensieve,APP
+applications,Pinterest with 0-60 background tabs,APP
+applications,Puffer video streaming (customized),USERSPACE_SW
+applications,RTT measurement,TOOL:ping
+applications,SNMPv3 probes,TOOL:snmp
+applications,SRTT,TOOL:ping
+applications,SRTT (Chromium),TOOL:ping
+applications,Safari,APP
+applications,Samsung Internet,APP
+applications,Selenium-driven video playback of Hulu,APP
+applications,Shaka Player v2.5.1 (HLS; Hall manifest),APP
+applications,Skype,APP
+applications,Skype for Android (Kwikr-enabled vs unmodified),OWN
+applications,Skype for Linux 4.3,APP
+applications,StreamTheater (60 FPS 1080p VR streaming),USERSPACE_SW
+applications,TCP,TOOL:iperf
+applications,TNT (traceroute + ping via scamper),TOOL:ping
+applications,TSLP latency probes,TOOL:measurement-tool
+applications,Throughput*,APP
+applications,TikTok,APP
+applications,Twitch,APP
+applications,VRidge,APP
+applications,Vimeo,APP
+applications,Vroom,APP
+applications,WebPagetest browser page loads of Alexa top-500 non-landing pages,APP
+applications,WebRTC,APP
+applications,WebRTC video calls (Full-HD; 4 devices),APP
+applications,WebRTC-CM,CD
+applications,WebRTC-T,CD
+applications,WebRTC-V,CD
+applications,WebSearch workload,TOOL:flowgen
+applications,WhatsApp (5 MB file transfers),APP
+applications,YouTube,APP
+applications,YouTube (QUIC),APP
+applications,YouTube (TCP),APP
+applications,bdrmap,TOOL:measurement-tool
+applications,browser page load of an example page,APP
+applications,cannot-determine,CD
+applications,cannot-determine (75 MB file download),CD
+applications,cannot-determine (bulk transfer flow),TOOL:wget
+applications,cannot-determine (path measurement tool not stated),CD
+applications,channel access delay estimator,no need
+applications,contenders Mega,APP
+applications,counterfactual BBA,no need
+applications,curl,TOOL:curl
+applications,custom ABR client (RobustMPC),OWN
+applications,custom ABR server (MPC with Xatu or CS2P predictor),OWN
+applications,custom ABR server (Xatu+MPC),OWN
+applications,dash.js player in Chrome,APP
+applications,dash.js player in Chrome and Firefox (MPEG-DASH),APP
+applications,dash.js v2.7.0 player in Chrome via Selenium (CAVA; BOLA-E peak/avg/seg),APP
+applications,dash.js v2.9.3 (DASH),APP
+applications,dynamic ABR,APP
+applications,findcdn,TOOL:measurement-tool
+applications,iperf,TOOL:iperf
+applications,large-file download (tool not stated),TOOL:wget
+applications,live services all-pairs (YouTube vs Dropbox highlighted),APP
+applications,neighbors: paced UDP,TOOL:iperf
+applications,news.google.com,APP
+applications,none,no need
+applications,none (10-second bulk flows),no need
+applications,none (bulk flows added every 25 s),no need
+applications,none (bulk senders),no need
+applications,paper's own app (ACK_MP strategies; 4 MB request),OWN
+applications,paper's own app (Android VR traffic generator + server emulator),OWN
+applications,paper's own app (DNS racing across 2–3 resolvers),OWN
+applications,paper's own app (FlowTele flows with vAlloc; synthetic CBR video chunks),OWN
+applications,paper's own app (LTE-VR vs legacy LTE),OWN
+applications,paper's own app (LTE-VR; 60FPS 4K VR),OWN
+applications,paper's own app (LTE-VR; replayed driving-test VR traffic 20000 1080p frames),OWN
+applications,paper's own app (Pathneck-MF co-bottleneck probes),OWN
+applications,paper's own app (Q-FlowTele flows; Table 4 flow settings),OWN
+applications,paper's own app (SODA ABR in local Puffer deployment; Chrome),OWN
+applications,paper's own app (TCP payload sender 2KB-4MB with 0.12-8 s gaps; ss socket stats),OWN
+applications,paper's own app (TCP payload sender; 2KB-4MB payloads),OWN
+applications,paper's own app (XLINK first-frame delivery; frame sizes 128K–2M),OWN
+applications,paper's own app (minq QUIC constant-rate upload with spin bit/VEC),OWN
+applications,paper's own app (simple C CBR video player),OWN
+applications,paper's own app (standalone fShaper flows),OWN
+applications,paper's own app (vanilla-MP multipath QUIC),OWN
+applications,paper's own app (vanilla-MP; re-injection with/without QoE control),OWN
+applications,paper's own app (Ónoma vs sharding),OWN
+applications,paper's own app (Ónoma),OWN
+applications,paper's own app (Ónoma; sharding),OWN
+applications,paper's own app: 12 B request / 50 KB response client-server,OWN
+applications,paper's own app: BONES prototype player (iStream) with BONES,OWN
+applications,paper's own app: BONES prototype player (iStream; PyTorch; VPF; OpenGL),OWN
+applications,paper's own app: CClinguist client (HTTP download from web server),OWN
+applications,paper's own app: CClinguist client (HTTP download from web server) (ECN-enabled) against live websites incl. facebook.com,OWN
+applications,paper's own app: CClinguist client (HTTP download from web server) against CrUX Top-10K websites,OWN
+applications,paper's own app: CClinguist client (HTTP download from web server) against an Alibaba-CDN website,OWN
+applications,paper's own app: Converge,OWN
+applications,paper's own app: Converge (multipath WebRTC in Chromium),OWN
+applications,paper's own app: Converge (multipath WebRTC in Chromium; with vs without QoE feedback),OWN
+applications,paper's own app: Converge FEC vs default WebRTC FEC (Chromium),OWN
+applications,paper's own app: FFmpeg AV1 SVC live streamer over SCION UDP (88 Mbps),OWN
+applications,paper's own app: QUIC Bench,OWN
+applications,paper's own app: UDP CBR sender (ON/OFF) with J-QoS CR-WAN service,OWN
+applications,paper's own app: bursty short-flow generator (sizes from Internet core router traces),OWN
+applications,paper's own app: short-flow generator (100 KB flows; exponential interarrival; load 5-75%),OWN
+applications,paper's own synthetic CG traffic generator (GRU) from Forza,OWN
+applications,paper's own: J-QoS CR-WAN,OWN
+applications,paper's own: J-QoS forwarding and CR-WAN,OWN
+applications,paper's own: Ping-Pair and Ping-triplet probes,OWN
+applications,paper's own: Ping-Pair probe,OWN
+applications,paper's own: TGtrans HTTP fetch generator,OWN
+applications,scamper paris-traceroute,TOOL:traceroute
+applications,ss,TOOL:ss
+applications,tcpdump,TOOL:capture
+applications,test web server on each VM (client tool not stated),TOOL:httpserver
+applications,third-party DNS,TOOL:dns
+applications,throughput-based,APP
+applications,tool-only:DNS resolution,TOOL:dns
+applications,tool-only:DNS resolution (Google; Quad9; Cloudflare; regional resolvers),TOOL:dns
+applications,tool-only:Flent (2 Mbps EF-marked fixed-rate flow + bulk TCP),TOOL:flent
+applications,tool-only:Flent (RRUL),TOOL:flent
+applications,tool-only:Flent (TCP flows),TOOL:flent
+applications,tool-only:Flent (TCP up/down + latency measurement flow),TOOL:flent
+applications,tool-only:NDT,TOOL:ndt
+applications,tool-only:NDT7,TOOL:ndt
+applications,tool-only:NDT7 (JavaScript in Chrome browser plugin),APP
+applications,tool-only:PyTNT,TOOL:traceroute
+applications,tool-only:PyTNT (traceroute + ping via scamper),TOOL:ping
+applications,tool-only:PyTNT (traceroute + ping),TOOL:ping
+applications,tool-only:RIPE Atlas DNS API,TOOL:dns
+applications,tool-only:RIPE Atlas latency probes,TOOL:measurement-tool
+applications,tool-only:h2load (HTTP download from usps.com),TOOL:h2load
+applications,tool-only:h2load (parallel HTTP requests to Top-10K sites),TOOL:h2load
+applications,tool-only:iperf,TOOL:iperf
+applications,tool-only:iperf (train 120 s),TOOL:iperf
+applications,tool-only:iperf3,TOOL:iperf
+applications,tool-only:latency probes (Speedchecker platform),TOOL:measurement-tool
+applications,tool-only:netperf,TOOL:netperf
+applications,tool-only:perftest (RDMA),TOOL:perftest
+applications,tool-only:ping,TOOL:ping
+applications,tool-only:speed tests,TOOL:speedtest
+applications,tool-only:speed tests (Ookla; M-Lab; Comcast Xfinity via Chromium),TOOL:speedtest
+applications,tool-only:traceroute (scamper),TOOL:traceroute
+applications,tool-only:wget (100 MB file from Apache server),TOOL:wget
+applications,tool-only:wget (100 MB file),TOOL:wget
+applications,tool-only:wget (64 KB to 2 MB files),TOOL:wget
+applications,up to 3 camera streams,no need
+applications,video client streaming Big Buck Bunny with BOLA,APP
+applications,video client with BOLA,APP
+applications,video streaming client (ABR not stated) with Fugu predictions,APP
+applications,video streaming client (Big Buck Bunny),APP
+applications,video streaming client (player/ABR not stated),APP
+applications,video streaming client with BOLA,APP
+applications,video streaming client with MPC ABR,APP
+applications,video streaming client with MPC ABR (Fugu training),APP
+applications,video streaming client with MPC ABR (buffer 5 s),APP
+applications,video streaming client with random bitrate selection (no ABR),APP
+applications,video streaming on all available user platforms (providers not stated),APP
+applications,wget (test 100 MB 60 s),TOOL:wget
+applications,wikipedia.org,APP
+congestion_control,12 Linux 5.4.0 kernel CCAs (server-side),KSET:12
+congestion_control,14 other schemes (Fig 6 legend; not named in text),CD
+congestion_control,15 Linux CCAs,KSET:15
+congestion_control,15 built-in Linux CCAs (BBR = BBRv1),KSET:15
+congestion_control,16 Linux kernel CCAs incl. Cubic,KSET:16
+congestion_control,Astraea,USERSPACE_SW
+congestion_control,Aurora,USERSPACE_SW
+congestion_control,BBR,KCCA:bbr
+congestion_control,BBR (5 iperf flows),KCCA:bbr
+congestion_control,BBR (iperf contenders),KCCA:bbr
+congestion_control,BBR (iperf sender),KCCA:bbr
+congestion_control,BBR (randomly assigned per stream),KCCA:bbr
+congestion_control,BBR (v1),KCCA:bbr
+congestion_control,BBR (v1) kernel reference,KCCA:bbr
+congestion_control,BBR (v1) kernel with modified cwndgain 1.0-4.0,KERNEL_BUILD
+congestion_control,BBR (v1) on Linux 4.15 (iperf contender),KERNEL_BUILD
+congestion_control,BBR (v1) per MPTCP subflow (MPTCP 0.95),KERNEL_BUILD
+congestion_control,BBR on Linux 4.15 and Linux 5.15 (iperf contender),KERNEL_BUILD
+congestion_control,BBR2,KERNEL_BUILD
+congestion_control,BBRv2,KERNEL_BUILD
+congestion_control,BBRv3,KERNEL_BUILD
+congestion_control,BBRv3 each vs Cubic (half/half),KERNEL_BUILD
+congestion_control,BC,USERSPACE_SW
+congestion_control,BC-top,USERSPACE_SW
+congestion_control,BC-top3,USERSPACE_SW
+congestion_control,BCv2,USERSPACE_SW
+congestion_control,BIC,KCCA:bic
+congestion_control,BLEST,KERNEL_BUILD
+congestion_control,Balia,KERNEL_BUILD
+congestion_control,Balia (MPTCP 0.95),KERNEL_BUILD
+congestion_control,Bic,KCCA:bic
+congestion_control,C2TCP,KERNEL_BUILD
+congestion_control,CCA cannot-determine,CD
+congestion_control,CDG,KCCA:cdg
+congestion_control,CUBIC,KCCA:cubic
+congestion_control,Copa,USERSPACE_SW
+congestion_control,Cubic,KCCA:cubic
+congestion_control,Cubic (Set II competitor),KCCA:cubic
+congestion_control,Cubic (all flows same CCA),KCCA:cubic
+congestion_control,Cubic (decoupled),KCCA:cubic
+congestion_control,Cubic (fixed aggregate),KCCA:cubic
+congestion_control,Cubic (iperf sender),KCCA:cubic
+congestion_control,Cubic (kernel reference),KCCA:cubic
+congestion_control,Cubic (pairwise),KCCA:cubic
+congestion_control,Cubic kernel with HyStart disabled,SYSCTL
+congestion_control,DAPS,KERNEL_BUILD
+congestion_control,DCQCN,SPECIAL_HW
+congestion_control,DeepCC,KERNEL_BUILD
+congestion_control,ECF (paper's own),OWN
+congestion_control,ECN-based BBR-v2,KERNEL_BUILD
+congestion_control,ECN-based Cubic,SYSCTL
+congestion_control,ECN-based DCTCP,SYSCTL
+congestion_control,GCC (WebRTC; per path),no need
+congestion_control,Genet,USERSPACE_SW
+congestion_control,HTCP,KCCA:htcp
+congestion_control,HighSpeed,KCCA:highspeed
+congestion_control,Highspeed,KCCA:highspeed
+congestion_control,Hybla,KCCA:hybla
+congestion_control,Illinois,KCCA:illinois
+congestion_control,Indigo,USERSPACE_SW
+congestion_control,Indigov2,USERSPACE_SW
+congestion_control,LEDBAT,USERSPACE_SW
+congestion_control,LIA,KERNEL_BUILD
+congestion_control,MPTCP,KERNEL_BUILD
+congestion_control,MPTCP v0.89 (coupled CC not named),KERNEL_BUILD
+congestion_control,MPTCP v0.89 Default scheduler with CWND reset disabled (modified kernel),KERNEL_BUILD
+congestion_control,Minerva,USERSPACE_SW
+congestion_control,MulCubic,USERSPACE_SW
+congestion_control,MulCubic (baseline),USERSPACE_SW
+congestion_control,New Reno,KCCA:reno
+congestion_control,NewReno,KCCA:reno
+congestion_control,NewReno (iperf sender),KCCA:reno
+congestion_control,OLIA,KERNEL_BUILD
+congestion_control,OLIA (MPTCP 0.95),KERNEL_BUILD
+congestion_control,OnlineRL,USERSPACE_SW
+congestion_control,Orca,KERNEL_BUILD
+congestion_control,Orcav2,KERNEL_BUILD
+congestion_control,PCC Vivace,USERSPACE_SW
+congestion_control,PCC-Latency,USERSPACE_SW
+congestion_control,PCC-Loss,USERSPACE_SW
+congestion_control,PCC_Variant1,USERSPACE_SW
+congestion_control,PCC_Variant2 (modified-parameter PCC),USERSPACE_SW
+congestion_control,PCP,USERSPACE_SW
+congestion_control,QUIC stack XQUIC (SP; vanilla-MP; CM; XLINK),USERSPACE_SW
+congestion_control,QUIC stack XQUIC (multipath),USERSPACE_SW
+congestion_control,QUIC stack chromium (CUBIC modified: emulated flows 2 to 1),USERSPACE_SW
+congestion_control,QUIC stack gQUIC (Cubic;BBRv1),USERSPACE_SW
+congestion_control,QUIC stack in Chrome/Firefox builds (not named),no need
+congestion_control,QUIC stack minq (draft-05),USERSPACE_SW
+congestion_control,QUIC stack mvfst (BBR modified: pacing gain 1.25 to 1),USERSPACE_SW
+congestion_control,QUIC stack quiche (CUBIC with RFC 8312 behavior disabled),USERSPACE_SW
+congestion_control,QUIC stack xquic (BBR modified: cwnd gain 2.5 to 2),USERSPACE_SW
+congestion_control,QUIC stack xquic (CUBIC unmodified),USERSPACE_SW
+congestion_control,QUIC stack: 11 stacks at Table-1 commits (Cubic; BBR; Reno variants),USERSPACE_SW
+congestion_control,QUIC stack: Fig-11 implementation set,USERSPACE_SW
+congestion_control,QUIC stack: pairwise of 23 QUIC CCA implementations,USERSPACE_SW
+congestion_control,Reno,KCCA:reno
+congestion_control,Reno (Linux 5.13 kernel reference),KCCA:reno
+congestion_control,Reno (TCP neighbor),KCCA:reno
+congestion_control,Reno (kernel reference),KCCA:reno
+congestion_control,SABUL,USERSPACE_SW
+congestion_control,Sage,USERSPACE_SW
+congestion_control,Sage (offline RL),USERSPACE_SW
+congestion_control,Sage-Top,OWN
+congestion_control,Sage-Top4,OWN
+congestion_control,Sage-l,OWN
+congestion_control,Sage-m,OWN
+congestion_control,Sage-s,OWN
+congestion_control,Scalable,KCCA:scalable
+congestion_control,Scalable (the 12 known labels),KCCA:scalable
+congestion_control,Sprout,USERSPACE_SW
+congestion_control,Sprout (+ NATCP as 'Optimal' reference),USERSPACE_SW
+congestion_control,TCP (variant not specified),no need
+congestion_control,TCP with SACK (variant not specified),no need
+congestion_control,TaoVA-100x,USERSPACE_SW
+congestion_control,Vegas,KCCA:vegas
+congestion_control,Veno,KCCA:veno
+congestion_control,Vivace,USERSPACE_SW
+congestion_control,Westwood,KCCA:westwood
+congestion_control,YeAH,KCCA:yeah
+congestion_control,Yeah,KCCA:yeah
+congestion_control,bbr,KCCA:bbr
+congestion_control,bbrv3,KERNEL_BUILD
+congestion_control,bic,KCCA:bic
+congestion_control,bursty aggregate not specified,CD
+congestion_control,cannot-determine,CD
+congestion_control,cannot-determine (7 protocols; MPTCP 3 subflows),CD
+congestion_control,cdg,KCCA:cdg
+congestion_control,competitor: Cubic,KCCA:cubic
+congestion_control,competitor: PCC Vivace (vs MPCC) or Reno (vs MPTCP),USERSPACE_SW
+congestion_control,competitor: single-path PCC,USERSPACE_SW
+congestion_control,cross-traffic CCA cannot-determine,CD
+congestion_control,cross: Cubic,KCCA:cubic
+congestion_control,cubic,KCCA:cubic
+congestion_control,default vs paper's own scheduler,OWN
+congestion_control,foreground cannot-determine,CD
+congestion_control,highspeed,KCCA:highspeed
+congestion_control,htcp,KCCA:htcp
+congestion_control,hybla,KCCA:hybla
+congestion_control,illinois,KCCA:illinois
+congestion_control,non-adaptive constant-rate traffic,no need
+congestion_control,not set,no need
+congestion_control,nv,KCCA:nv
+congestion_control,observed-remote,no need
+congestion_control,observed-remote (Dropbox),no need
+congestion_control,observed-remote (Mega),no need
+congestion_control,paced New Reno,KCCA:reno
+congestion_control,paper's own: CICN transport (in-network loss control) or TCP/IP,OWN
+congestion_control,paper's own: MPCC-latency,OWN
+congestion_control,paper's own: MPCC-latency (MPTCP 0.95),OWN
+congestion_control,paper's own: MPCC-loss (MPTCP 0.95),OWN
+congestion_control,paper's own: Mutant,OWN
+congestion_control,paper's own: Mutant (MPTS K=4 pool; per-scenario pools in legend),OWN
+congestion_control,paper's own: Mutant (MPTS; random; mixed pool selection k=6),OWN
+congestion_control,paper's own: Mutant (delta swept 1e-4..1 s),OWN
+congestion_control,paper's own: Mutant (k in 2..11 from 11-CCA pool),OWN
+congestion_control,paper's own: Mutant variants (full; STATIC; Raw-ALL; Raw-STATIC),OWN
+congestion_control,paper's own: PCC,OWN
+congestion_control,paper's own: PCC (Tm/epsilon-min/RCT variants),OWN
+congestion_control,paper's own: PCC (latency utility),OWN
+congestion_control,paper's own: Q-FlowTele,OWN
+congestion_control,paper's own: Sage,OWN
+congestion_control,paper's own: Sage (6 ablated model variants),OWN
+congestion_control,paper's own: Sage (daily checkpoints over 7 days),OWN
+congestion_control,paper's own: fShaper (FlowTele cwnd control),OWN
+congestion_control,plus 9 other schemes (Fig 18/27),CD
+congestion_control,plus Fig 23 legend schemes,CD
+congestion_control,plus Fig 8a/b legend schemes,CD
+congestion_control,reno,KCCA:reno
+congestion_control,scalable,KCCA:scalable
+congestion_control,schedulers Default,KERNEL_BUILD
+congestion_control,vegas,KCCA:vegas
+congestion_control,veno,KCCA:veno
+congestion_control,wVegas,KERNEL_BUILD
+congestion_control,westwood,KCCA:westwood
+congestion_control,yeah,KCCA:yeah
+infrastructure,25 Gbps,SPECIAL_HW
+infrastructure,3 PCs + 2 smartphones on cellular LTE,DEVICES
+infrastructure,4 Wi-Fi laptops + 1 Ethernet desktop,ACCESS
+infrastructure,5G,ACCESS
+infrastructure,5G SA testbed,SPECIAL_HW
+infrastructure,AMS3,CLOUD:digitalocean
+infrastructure,AWS (13 servers worldwide),CLOUD:aws
+infrastructure,AWS (region not specified) senders to lab receivers over public Internet,CLOUD:aws
+infrastructure,AWS London (media bridge),CLOUD:aws
+infrastructure,AWS Ohio,CLOUD:aws
+infrastructure,AWS data centers,CLOUD:aws
+infrastructure,AWS us-east (Virginia),CLOUD:aws
+infrastructure,AWS us-east-2 (Ohio),CLOUD:aws
+infrastructure,AWS us-east-2 (Ohio) server via NetUnicorn,CLOUD:aws
+infrastructure,Alibaba Cloud BJ (train) and TYO (test) servers,CLOUD:alibaba
+infrastructure,Alibaba Cloud SV server,CLOUD:alibaba
+infrastructure,Alibaba Cloud servers WS1-WS6 (regions not stated),CLOUD:alibaba
+infrastructure,Alibaba Cloud servers WS7,CLOUD:alibaba
+infrastructure,Android TV,DEVICES
+infrastructure,Android TV box,DEVICES
+infrastructure,Android phone,DEVICES
+infrastructure,Azure (US East; US West; EU; Asia; OC),CLOUD:azure
+infrastructure,Azure East,CLOUD:azure
+infrastructure,Azure East Apache server,CLOUD:azure
+infrastructure,Azure East server,CLOUD:azure
+infrastructure,BLR1,CLOUD:digitalocean
+infrastructure,CAIDA Ark (262 vantage points),WAN_PLATFORM
+infrastructure,CAIDA Ark (ITDK production; VP count not stated),WAN_PLATFORM
+infrastructure,CAIDA Ark (vantage points of the seed traceroutes),WAN_PLATFORM
+infrastructure,CAIDA Ark node in Comcast residential network (Bedford MA),WAN_PLATFORM
+infrastructure,CloudLab,LOCAL
+infrastructure,CloudLab (Utah) clients,LOCAL
+infrastructure,CloudLab (Wisconsin),LOCAL
+infrastructure,CloudLab (Wisconsin) BESS switch,LOCAL
+infrastructure,CloudLab (server in a different CloudLab region),REMOTE_HOSTS
+infrastructure,CloudLab client bottleneck,LOCAL
+infrastructure,Digital Ocean NY,CLOUD:digitalocean
+infrastructure,DigitalOcean NYC1,CLOUD:digitalocean
+infrastructure,DigitalOcean VMs,CLOUD:digitalocean
+infrastructure,ECMP,no need
+infrastructure,ETH Zurich server via NetUnicorn,REMOTE_HOSTS
+infrastructure,Emulab,LOCAL
+infrastructure,FABRIC (hosts across US and Europe),REMOTE_HOSTS
+infrastructure,FRA1,CLOUD:digitalocean
+infrastructure,Frankfurt,CLOUD:aws
+infrastructure,GCP Los Angeles,CLOUD:gcp
+infrastructure,GCP Montréal (cross-traffic sender),CLOUD:gcp
+infrastructure,GCP Ohio,CLOUD:gcp
+infrastructure,GCP Taiwan (cross-traffic sender),CLOUD:gcp
+infrastructure,GCP Tokyo,CLOUD:gcp
+infrastructure,GCP VMs premium and standard tiers,CLOUD:gcp
+infrastructure,GCP us-central1,CLOUD:gcp
+infrastructure,GCP us-west1,CLOUD:gcp
+infrastructure,GENI (16 US cities),REMOTE_HOSTS
+infrastructure,GENI (5 sites) + local server,REMOTE_HOSTS
+infrastructure,GENI (9 site pairs),REMOTE_HOSTS
+infrastructure,GENI (Chicago InstaGENI to Illinois),REMOTE_HOSTS
+infrastructure,GENI (Midwest provider; NW/UW/MI sites),REMOTE_HOSTS
+infrastructure,GENI (NW/UW/MI sites),REMOTE_HOSTS
+infrastructure,GENI (Vermont InstaGENI to Texas InstaGENI),REMOTE_HOSTS
+infrastructure,GENI (randomly selected remote server),REMOTE_HOSTS
+infrastructure,Germany,WAN_PLATFORM
+infrastructure,Google,CLOUD:gcp
+infrastructure,India,WAN_PLATFORM
+infrastructure,LON1,CLOUD:digitalocean
+infrastructure,Linux workstation,LOCAL
+infrastructure,London,CLOUD:aws
+infrastructure,M-Lab server hosted by TATA (New York),INET
+infrastructure,Mac Mini 4K desktops,LOCAL
+infrastructure,Mac Mini desktops with GPU and 4K monitor,LOCAL
+infrastructure,MacBooks,LOCAL
+infrastructure,Microsoft,CLOUD:azure
+infrastructure,N. California,CLOUD:aws
+infrastructure,Nexus 6P,DEVICES
+infrastructure,PC-3,LOCAL
+infrastructure,PCs + smartphones,DEVICES
+infrastructure,Pixel,DEVICES
+infrastructure,PlanetLab,REMOTE_HOSTS
+infrastructure,PlanetLab (45 wide-area paths),REMOTE_HOSTS
+infrastructure,PlayStation,DEVICES
+infrastructure,RDMA hardware testbed,SPECIAL_HW
+infrastructure,RDMA hardware testbed (Arista DCS-7060CX; Tofino2),SPECIAL_HW
+infrastructure,RDMA hardware testbed (Arista DCS-7060CX; Tofino2; two Xeon E5-2650 servers),SPECIAL_HW
+infrastructure,RIPE Atlas,WAN_PLATFORM
+infrastructure,RIPE Atlas (US probes),WAN_PLATFORM
+infrastructure,Raspberry Pi speedtest server at router,ACCESS
+infrastructure,Raspberry Pi wired to home router,ACCESS
+infrastructure,SCIERA/SCION (ETH Zurich server to South Korea receiver),WAN_PLATFORM
+infrastructure,SCIERA/SCION (ETH Zurich to South Korea receiver),WAN_PLATFORM
+infrastructure,SCION production network (ETH Zurich server to Switzerland receiver),WAN_PLATFORM
+infrastructure,SCION production network (ETH Zurich to Switzerland receiver; 100 Mbps access link),WAN_PLATFORM
+infrastructure,SFO2,CLOUD:digitalocean
+infrastructure,SGP1,CLOUD:digitalocean
+infrastructure,SV,CLOUD:alibaba
+infrastructure,Samsung S4,DEVICES
+infrastructure,Sao Paulo,CLOUD:aws
+infrastructure,SmartNIC emulator (P7),SPECIAL_HW
+infrastructure,Speedchecker vantage points (>10;000 networks),WAN_PLATFORM
+infrastructure,T-Mobile (east and west),ACCESS
+infrastructure,TYO,CLOUD:alibaba
+infrastructure,Tofino routers (EdgeCore Wedge 100-32X),SPECIAL_HW
+infrastructure,Tokyo,CLOUD:aws
+infrastructure,Toronto,CLOUD:digitalocean
+infrastructure,US (NordVPN),WAN_PLATFORM
+infrastructure,USRP B210 + OpenAirInterface LTE testbed,SPECIAL_HW
+infrastructure,VPN exits in Argentina,WAN_PLATFORM
+infrastructure,VPN exits in selected countries (incl. US; India),WAN_PLATFORM
+infrastructure,WS8 (regions not stated),CLOUD:alibaba
+infrastructure,Wi-Fi,ACCESS
+infrastructure,Wi-Fi (stationary/walking/driving),ACCESS
+infrastructure,Wi-Fi APs (LinkSys; TP-Link; Cisco; D-Link; Aruba; TP-Link range extender),ACCESS
+infrastructure,Wi-Fi testbed/APs,ACCESS
+infrastructure,Wi-Fi testbed/APs (802.11g),ACCESS
+infrastructure,Wi-Fi testbed/APs (Netgear WNDR3800 OpenWRT),ACCESS
+infrastructure,Wi-Fi testbed/APs (lab access gateway),ACCESS
+infrastructure,Wi-Fi testbed/APs (participants' home Wi-Fi),ACCESS
+infrastructure,Windows PCs,LOCAL
+infrastructure,Windows laptops,LOCAL
+infrastructure,authors' servers,REMOTE_HOSTS
+infrastructure,campus network (university lab; border-router traffic copy to campus classifier),OPERATOR_VANTAGE
+infrastructure,cannot-determine,CD
+infrastructure,cannot-determine (PC-3),CD
+infrastructure,cellular (USB tethering),ACCESS
+infrastructure,cellular AT&T LTE,ACCESS
+infrastructure,cellular LTE (Verizon; AT&T; T-Mobile; Sprint),ACCESS
+infrastructure,cellular LTE (carrier not specified),ACCESS
+infrastructure,cellular LTE Verizon (east),ACCESS
+infrastructure,cellular T-Mobile,ACCESS
+infrastructure,cellular T-Mobile 4G/5G,ACCESS
+infrastructure,cellular Verizon,ACCESS
+infrastructure,cellular Verizon 4G/5G,ACCESS
+infrastructure,cellular commercial LTE (coast-to-coast US drive),ACCESS
+infrastructure,client in HK,REMOTE_HOSTS
+infrastructure,cloud endpoint,CLOUD:unnamed
+infrastructure,cloud providers Amazon,CLOUD:aws
+infrastructure,cloud server in Washington D.C. (WDC),CLOUD:unnamed
+infrastructure,enterprise Wi-Fi,ACCESS
+infrastructure,europe-west1 (premium and standard tiers),CLOUD:gcp
+infrastructure,five European access networks (wired and wireless),ACCESS
+infrastructure,iPad,DEVICES
+infrastructure,lab Ubuntu server,LOCAL
+infrastructure,local emulation,LOCAL
+infrastructure,local emulation (LAN testbed),LOCAL
+infrastructure,local emulation (LXC containers),LOCAL
+infrastructure,local emulation (Mahimahi multipath),LOCAL
+infrastructure,local emulation (Mahimahi record-and-replay server),LOCAL
+infrastructure,local emulation (Mahimahi),LOCAL
+infrastructure,local emulation (Mahimahi/mpshell),LOCAL
+infrastructure,local emulation (Mininet),LOCAL
+infrastructure,local emulation (Pantheon + Mahimahi),LOCAL
+infrastructure,local emulation (Pantheon + Mahimahi; modified for >200 Mbps 5G),LOCAL
+infrastructure,local emulation (Pantheon + modified Mahimahi),LOCAL
+infrastructure,local emulation (containers in one VM),LOCAL
+infrastructure,local emulation (emulation testbed; Mahimahi per §4),LOCAL
+infrastructure,local emulation (emulator not named),LOCAL
+infrastructure,local emulation (emulator not restated in §4.4),LOCAL
+infrastructure,local emulation (hardware testbed: Dell R6515 servers; BF6064X-T switches; netem + tc-tbf),LOCAL
+infrastructure,local emulation (lab tc shaping) to public Internet services,INET
+infrastructure,local emulation (lab; calls via real VCA services),LOCAL
+infrastructure,local emulation (lab; tool not specified),LOCAL
+infrastructure,local emulation (one desktop),LOCAL
+infrastructure,local emulation (single end host; real Teams and Dailymail services),LOCAL
+infrastructure,local emulation (two computers; 100 Mbps direct link),LOCAL
+infrastructure,local emulation (two lab machines; calls via real VCA services),LOCAL
+infrastructure,local emulation of bandwidth traces,LOCAL
+infrastructure,on-campus observation node (VPP),OPERATOR_VANTAGE
+infrastructure,phone tethered to sending host,ACCESS
+infrastructure,phones Android,DEVICES
+infrastructure,phones Samsung S7 Edge,DEVICES
+infrastructure,phones/devices (4 devices; mobility),DEVICES
+infrastructure,phones/devices Android,DEVICES
+infrastructure,phones/devices Google Nexus 5,DEVICES
+infrastructure,phones/devices iPhone,DEVICES
+infrastructure,phones/devices lab set,DEVICES
+infrastructure,phones/devices laptops (driving),LOCAL
+infrastructure,phones/devices laptops (stationary),LOCAL
+infrastructure,phones/devices laptops (walking),LOCAL
+infrastructure,phones/devices mobile phone,DEVICES
+infrastructure,phones/devices same set as lab,DEVICES
+infrastructure,phones/devices with Gear VR and DayDream/Cardboard,DEVICES
+infrastructure,physical datacenter testbed: 6 switches + 6 hosts 2-layer Clos,SPECIAL_HW
+infrastructure,physical tablets and desktops,DEVICES
+infrastructure,physical testbed at SDSC (Raspberry Pi 2; Linksys WRT1900AC),ACCESS
+infrastructure,public DNS resolvers in Argentina and India,INET
+infrastructure,public Internet services via lab BESS bottleneck,INET
+infrastructure,public Internet target (Alibaba CDN website),INET
+infrastructure,public Internet target usps.com,INET
+infrastructure,public Internet targets,INET
+infrastructure,public Internet targets (1;329 U.S. speed test servers),INET
+infrastructure,public Internet targets (CrUX Top-10K),INET
+infrastructure,public Internet targets (CrUX Top-10K) from clients in HK,INET
+infrastructure,public Internet targets (OTT services),INET
+infrastructure,public Internet targets (live pages in Chrome),INET
+infrastructure,public Internet targets (live websites),INET
+infrastructure,public Internet targets (speed test servers),INET
+infrastructure,public Internet targets from any host,INET
+infrastructure,public Internet targets from any host (CrUX Top-10K),INET
+infrastructure,public Internet targets from any host (WebPagetest host not stated),INET
+infrastructure,public Internet targets from any host (one server at authors' institution),INET
+infrastructure,public Internet targets from one laptop,INET
+infrastructure,public Wi-Fi (town),ACCESS
+infrastructure,real clients globally,REAL_USERS
+infrastructure,remote servers at ICSI and Georgia Tech,REMOTE_HOSTS
+infrastructure,residential ISP (52 households Chicago area),ACCESS
+infrastructure,residential ISP (6 Paris home networks),ACCESS
+infrastructure,residential ISP (6 vantage points: 3 homes 100/18/6 Mbps; student residence; campus apartment; rural home),ACCESS
+infrastructure,residential ISP (66 homes: 60 US + 6 France) via Raspberry Pi/Odroid monitors,ACCESS
+infrastructure,residential ISP (Illinois),ACCESS
+infrastructure,residential ISP (Israel;Boston;Illinois) Wi-Fi,ACCESS
+infrastructure,residential ISP (Raspberry Pi in 15 households),ACCESS
+infrastructure,residential ISP (author home network),ACCESS
+infrastructure,residential ISP (one home network),ACCESS
+infrastructure,us-central1,CLOUD:gcp
+infrastructure,us-central1 (premium tier),CLOUD:gcp
+infrastructure,us-east1,CLOUD:gcp
+infrastructure,us-east4,CLOUD:gcp
+infrastructure,us-west2,CLOUD:gcp
+infrastructure,user devices,REAL_USERS
+infrastructure,users in Illinois,REAL_USERS
+infrastructure,users in Taiwan,REAL_USERS
+queue_discipline,802.11e WMM priority queuing at AP,no need
+queue_discipline,BoDe,CUSTOM_QDISC
+queue_discipline,CAKE,QDISC:cake
+queue_discipline,CAKE (ACK filtering: none; conservative; aggressive),QDISC:cake
+queue_discipline,CAKE (default; dst; src; triple-isolate host isolation),QDISC:cake
+queue_discipline,CAKE (no DiffServ; DiffServ4),QDISC:cake
+queue_discipline,CAKE DiffServ4,QDISC:cake
+queue_discipline,CoDel,QDISC:codel
+queue_discipline,DRR,QDISC:drr
+queue_discipline,ECN marking (ECN-enabled vs ECN-disabled),QDISC:ecn
+queue_discipline,ECN marking (XDP ECT-reset),QDISC:ecn
+queue_discipline,FIFO,QDISC:default
+queue_discipline,FQ with deep buffer (bufferbloat),QDISC:fq
+queue_discipline,HDrop,QDISC:pfifo_head_drop
+queue_discipline,One-Hop,CUSTOM_QDISC
+queue_discipline,PIE,QDISC:pie
+queue_discipline,RED,QDISC:red
+queue_discipline,TDrop,QDISC:default
+queue_discipline,cannot-determine,CD
+queue_discipline,default,QDISC:default
+queue_discipline,fq_codel,QDISC:fq_codel
+queue_discipline,others not specified,CD
+queue_discipline,paper's own HDWRR (user-space TUN/TAP),OWN
+queue_discipline,paper's own HDWRR/RCS at 0-4 domains along the path,OWN
+queue_discipline,paper's own HDWRR/RCS scheduler,OWN
+queue_discipline,token bucket (tc tbf; 5 KB burst),QDISC:default

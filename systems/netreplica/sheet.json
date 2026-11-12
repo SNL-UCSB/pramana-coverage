@@ -1,0 +1,173 @@
+{
+ "system": "NetReplica (netforge)",
+ "anchor": "2026-07-17",
+ "repos": {
+  "netforge": {
+   "url": "https://github.com/SNL-UCSB/netforge",
+   "commit": "959546e"
+  }
+ },
+ "types": [
+  "BURSTLOSS",
+  "CAPVAR:trace",
+  "INET",
+  "JITTER",
+  "LOCAL",
+  "LOSS",
+  "REORDER",
+  "SHAPE",
+  "TOOL:capture",
+  "TOOL:curl",
+  "TOOL:dns",
+  "TOOL:flent",
+  "TOOL:flowgen",
+  "TOOL:h2load",
+  "TOOL:httpserver",
+  "TOOL:iperf",
+  "TOOL:measurement-tool",
+  "TOOL:ndt",
+  "TOOL:netperf",
+  "TOOL:perftest",
+  "TOOL:ping",
+  "TOOL:ping-inet",
+  "TOOL:snmp",
+  "TOOL:speedtest",
+  "TOOL:ss",
+  "TOOL:tcpreplay",
+  "TOOL:traceroute",
+  "TOOL:wget",
+  "XTRACE",
+  "XGEN",
+  "CAPVAR:schedule",
+  "PATHVAR"
+ ],
+ "qdiscs": [
+  "default",
+  "pfifo",
+  "bfifo",
+  "pfifo_fast",
+  "pfifo_head_drop",
+  "sfq",
+  "codel",
+  "fq_codel",
+  "fq",
+  "cake",
+  "red",
+  "ecn",
+  "gred",
+  "pie",
+  "drr",
+  "hfsc",
+  "tbf"
+ ],
+ "kernel_ccas": [],
+ "app_inventory": [],
+ "evidence": {
+  "SHAPE": [
+   {
+    "repo": "netforge",
+    "path": "src/controler.py",
+    "contains": "def shaping(download_mbps, upload_mbps, qdisc"
+   }
+  ],
+  "qdiscs": [
+   {
+    "repo": "netforge",
+    "path": "src/controler.py",
+    "contains": "parent 1:10 {qdisc}"
+   }
+  ],
+  "LOSS": [
+   {
+    "repo": "netforge",
+    "path": "src/controler.py",
+    "contains": "parent 1:10 {qdisc}"
+   }
+  ],
+  "JITTER": [
+   {
+    "repo": "netforge",
+    "path": "src/controler.py",
+    "contains": "parent 1:10 {qdisc}"
+   }
+  ],
+  "REORDER": [
+   {
+    "repo": "netforge",
+    "path": "src/controler.py",
+    "contains": "parent 1:10 {qdisc}"
+   }
+  ],
+  "BURSTLOSS": [
+   {
+    "repo": "netforge",
+    "path": "src/controler.py",
+    "contains": "parent 1:10 {qdisc}"
+   }
+  ],
+  "XTRACE": [
+   {
+    "repo": "netforge",
+    "path": "src/controler.py",
+    "contains": "def ctp(bg_location, ctpName)"
+   }
+  ],
+  "CAPVAR:trace": [
+   {
+    "repo": "netforge",
+    "path": "src/controler.py",
+    "contains": "def ctp(bg_location, ctpName)"
+   }
+  ],
+  "CAPVAR:schedule": [
+   {
+    "repo": "netforge",
+    "path": "src/controler.py",
+    "contains": "def shaping(download_mbps, upload_mbps, qdisc"
+   }
+  ],
+  "PATHVAR": [
+   {
+    "repo": "netforge",
+    "path": "src/controler.py",
+    "contains": "def latency(latency_ms)"
+   }
+  ],
+  "XGEN": [
+   {
+    "repo": "netforge",
+    "path": "src/controler.py",
+    "contains": "def run_client(cmd)"
+   }
+  ],
+  "TOOL:*": [
+   {
+    "repo": "netforge",
+    "path": "src/controler.py",
+    "contains": "def run_client(cmd)"
+   }
+  ],
+  "TOOL:capture": [
+   {
+    "repo": "netforge",
+    "path": "src/controler.py",
+    "contains": "def capture("
+   }
+  ],
+  "LOCAL": [
+   {
+    "repo": "netforge",
+    "path": "src/controler.py",
+    "contains": "def run_client(cmd)"
+   }
+  ],
+  "INET": [
+   {
+    "repo": "netforge",
+    "path": "src/controler.py",
+    "contains": "def run_client(cmd)"
+   }
+  ]
+ },
+ "not_provided": "The grammar's load mode is not fully implemented (NTC '26 l.225); competing flows are credited as concurrent iperf3 commands through run_client (packaged-tool rule). Congestion-control selection is in Pramana's substrate worker, credited once to Pramana."
+}

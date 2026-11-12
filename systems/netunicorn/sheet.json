@@ -1,0 +1,191 @@
+{
+ "system": "netUnicorn (core + netunicorn-library)",
+ "anchor": "2026-07-17",
+ "repos": {
+  "library": {
+   "url": "https://github.com/netunicorn/netunicorn-library",
+   "commit": "f7db584"
+  },
+  "ssh": {
+   "url": "https://github.com/netunicorn/netunicorn-connector-ssh",
+   "commit": "66a1752"
+  },
+  "aws": {
+   "url": "https://github.com/netunicorn/netunicorn-connector-aws",
+   "commit": "c64f1fa"
+  },
+  "aci": {
+   "url": "https://github.com/netunicorn/netunicorn-connector-aci",
+   "commit": "53a59d7"
+  },
+  "docker": {
+   "url": "https://github.com/netunicorn/netunicorn-connector-docker",
+   "commit": "1f2428e"
+  }
+ },
+ "types": [
+  "ACCESS",
+  "CLOUD:alibaba",
+  "CLOUD:aws",
+  "CLOUD:azure",
+  "CLOUD:digitalocean",
+  "CLOUD:gcp",
+  "CLOUD:unnamed",
+  "INET",
+  "LOCAL",
+  "REMOTE_HOSTS",
+  "TOOL:capture",
+  "TOOL:curl",
+  "TOOL:dns",
+  "TOOL:flent",
+  "TOOL:flowgen",
+  "TOOL:h2load",
+  "TOOL:httpserver",
+  "TOOL:iperf",
+  "TOOL:measurement-tool",
+  "TOOL:ndt",
+  "TOOL:netperf",
+  "TOOL:perftest",
+  "TOOL:ping",
+  "TOOL:ping-inet",
+  "TOOL:snmp",
+  "TOOL:speedtest",
+  "TOOL:ss",
+  "TOOL:tcpreplay",
+  "TOOL:traceroute",
+  "TOOL:wget",
+  "XGEN"
+ ],
+ "qdiscs": [],
+ "kernel_ccas": [],
+ "app_inventory": [],
+ "evidence": {
+  "TOOL:*": [
+   {
+    "repo": "library",
+    "path": "tasks/basic.py",
+    "contains": "class ShellCommand(Task)"
+   }
+  ],
+  "XGEN": [
+   {
+    "repo": "library",
+    "path": "tasks/measurements/iperf3.py",
+    "contains": "iperf3"
+   }
+  ],
+  "TOOL:iperf": [
+   {
+    "repo": "library",
+    "path": "tasks/measurements/iperf3.py",
+    "contains": "iperf3"
+   }
+  ],
+  "TOOL:flent": [
+   {
+    "repo": "library",
+    "path": "tasks/measurements/flent.py",
+    "contains": "flent"
+   }
+  ],
+  "TOOL:ndt": [
+   {
+    "repo": "library",
+    "path": "tasks/measurements/ndt.py",
+    "contains": "ndt"
+   }
+  ],
+  "TOOL:speedtest": [
+   {
+    "repo": "library",
+    "path": "tasks/measurements/ookla_speedtest.py",
+    "contains": "speedtest"
+   }
+  ],
+  "TOOL:capture": [
+   {
+    "repo": "library",
+    "path": "tasks/capture/tcpdump.py",
+    "contains": "tcpdump"
+   }
+  ],
+  "TOOL:ping": [
+   {
+    "repo": "library",
+    "path": "tasks/measurements/ping.py",
+    "contains": "ping"
+   }
+  ],
+  "LOCAL": [
+   {
+    "repo": "docker",
+    "path": "src/netunicorn/director/infrastructure/connectors/docker_connector.py",
+    "contains": "class DockerConnector"
+   }
+  ],
+  "CLOUD:aws": [
+   {
+    "repo": "aws",
+    "path": "src/netunicorn/director/infrastructure/connectors/aws.py",
+    "contains": "class AWSFargate"
+   }
+  ],
+  "CLOUD:azure": [
+   {
+    "repo": "aci",
+    "path": "src/netunicorn/director/infrastructure/connectors/aci.py",
+    "contains": "class AzureContainerInstances"
+   }
+  ],
+  "CLOUD:gcp": [
+   {
+    "repo": "ssh",
+    "path": "src/netunicorn/director/infrastructure/connectors/ssh_connector.py",
+    "contains": "class SSHConnector"
+   }
+  ],
+  "CLOUD:alibaba": [
+   {
+    "repo": "ssh",
+    "path": "src/netunicorn/director/infrastructure/connectors/ssh_connector.py",
+    "contains": "class SSHConnector"
+   }
+  ],
+  "CLOUD:digitalocean": [
+   {
+    "repo": "ssh",
+    "path": "src/netunicorn/director/infrastructure/connectors/ssh_connector.py",
+    "contains": "class SSHConnector"
+   }
+  ],
+  "CLOUD:unnamed": [
+   {
+    "repo": "ssh",
+    "path": "src/netunicorn/director/infrastructure/connectors/ssh_connector.py",
+    "contains": "class SSHConnector"
+   }
+  ],
+  "REMOTE_HOSTS": [
+   {
+    "repo": "ssh",
+    "path": "src/netunicorn/director/infrastructure/connectors/ssh_connector.py",
+    "contains": "class SSHConnector"
+   }
+  ],
+  "ACCESS": [
+   {
+    "repo": "ssh",
+    "path": "src/netunicorn/director/infrastructure/connectors/ssh_connector.py",
+    "contains": "class SSHConnector"
+   }
+  ],
+  "INET": [
+   {
+    "repo": "ssh",
+    "path": "src/netunicorn/director/infrastructure/connectors/ssh_connector.py",
+    "contains": "class SSHConnector"
+   }
+  ]
+ },
+ "not_provided": "no link shaping (Containernet is reached only through raw user code, not credited); its video watchers are browser automation, credited to NetGent and Pramana only (RULE.md convention 2)"
+}

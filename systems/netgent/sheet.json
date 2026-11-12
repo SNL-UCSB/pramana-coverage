@@ -1,0 +1,121 @@
+{
+ "system": "NetGent (netgent-workflow + netgent branches)",
+ "anchor": "2026-07-17",
+ "repos": {
+  "workflow": {
+   "url": "https://github.com/SNL-UCSB/netgent-workflow",
+   "commit": "6baa748"
+  },
+  "netgent": {
+   "url": "https://github.com/SNL-UCSB/netgent",
+   "commit": "12bd632",
+   "branches": {
+    "netgentdesktop": "12bd632",
+    "jaber-multiApp": "0bb957a"
+   }
+  }
+ },
+ "types": [
+  "APP",
+  "INET",
+  "LOCAL",
+  "TOOL:capture",
+  "TOOL:curl",
+  "TOOL:dns",
+  "TOOL:flent",
+  "TOOL:flowgen",
+  "TOOL:h2load",
+  "TOOL:httpserver",
+  "TOOL:iperf",
+  "TOOL:measurement-tool",
+  "TOOL:ndt",
+  "TOOL:netperf",
+  "TOOL:perftest",
+  "TOOL:ping",
+  "TOOL:ping-inet",
+  "TOOL:snmp",
+  "TOOL:speedtest",
+  "TOOL:ss",
+  "TOOL:tcpreplay",
+  "TOOL:traceroute",
+  "TOOL:wget",
+  "XAPP",
+  "XGEN"
+ ],
+ "qdiscs": [],
+ "kernel_ccas": [],
+ "app_inventory": [
+  "youtube",
+  "zoom",
+  "google-meet",
+  "teams",
+  "twitch",
+  "puffer",
+  "roku",
+  "tubi",
+  "talky",
+  "zoho",
+  "webex",
+  "jitsi",
+  "ringcentral",
+  "whereby",
+  "disney-plus",
+  "hulu",
+  "aparat",
+  "x",
+  "bluesky",
+  "instagram",
+  "reddit",
+  "tiktok"
+ ],
+ "evidence": {
+  "APP": [
+   {
+    "repo": "workflow",
+    "path": "workflows/index.json",
+    "contains": "run_youtube_non_navigate_workflow"
+   },
+   {
+    "repo": "netgent",
+    "path": "examples/video_conference/zoom.py",
+    "contains": ""
+   }
+  ],
+  "XAPP": [
+   {
+    "repo": "netgent",
+    "commit": "9863b12",
+    "message": "Add concurrent multi-application workflow execution"
+   }
+  ],
+  "TOOL:*": [
+   {
+    "repo": "workflow",
+    "path": "workflows/index.json",
+    "contains": "test_shell_workflow"
+   }
+  ],
+  "XGEN": [
+   {
+    "repo": "workflow",
+    "path": "workflows/index.json",
+    "contains": "test_iperf_workflow"
+   }
+  ],
+  "LOCAL": [
+   {
+    "repo": "workflow",
+    "path": "workflows/index.json",
+    "contains": "test_shell_workflow"
+   }
+  ],
+  "INET": [
+   {
+    "repo": "workflow",
+    "path": "workflows/index.json",
+    "contains": "run_youtube_non_navigate_workflow"
+   }
+  ]
+ },
+ "not_provided": "no link shaping"
+}

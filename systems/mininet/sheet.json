@@ -1,0 +1,155 @@
+{
+ "system": "Mininet 2.x incl. mininet-util (Mininet-HiFi)",
+ "anchor": "2026-07-17",
+ "repos": {
+  "mininet": {
+   "url": "https://github.com/mininet/mininet",
+   "commit": "6eb8973"
+  }
+ },
+ "types": [
+  "INET",
+  "JITTER",
+  "LOCAL",
+  "LOSS",
+  "PERFLOW:any",
+  "SHAPE",
+  "TOOL:capture",
+  "TOOL:curl",
+  "TOOL:dns",
+  "TOOL:flent",
+  "TOOL:flowgen",
+  "TOOL:h2load",
+  "TOOL:httpserver",
+  "TOOL:iperf",
+  "TOOL:measurement-tool",
+  "TOOL:ndt",
+  "TOOL:netperf",
+  "TOOL:perftest",
+  "TOOL:ping",
+  "TOOL:ping-inet",
+  "TOOL:snmp",
+  "TOOL:speedtest",
+  "TOOL:ss",
+  "TOOL:tcpreplay",
+  "TOOL:traceroute",
+  "TOOL:wget",
+  "TOPO",
+  "XGEN",
+  "CAPVAR:schedule",
+  "PATHVAR"
+ ],
+ "qdiscs": [
+  "default",
+  "red",
+  "ecn",
+  "tbf",
+  "hfsc"
+ ],
+ "kernel_ccas": [],
+ "app_inventory": [],
+ "evidence": {
+  "TOPO": [
+   {
+    "repo": "mininet",
+    "path": "mininet/topo.py",
+    "contains": "def addLink"
+   }
+  ],
+  "SHAPE": [
+   {
+    "repo": "mininet",
+    "path": "mininet/link.py",
+    "contains": "def bwCmds"
+   },
+   {
+    "repo": "mininet",
+    "path": "mininet/link.py",
+    "contains": "def delayCmds"
+   }
+  ],
+  "LOSS": [
+   {
+    "repo": "mininet",
+    "path": "mininet/link.py",
+    "contains": "loss=None, max_queue_size=None"
+   }
+  ],
+  "JITTER": [
+   {
+    "repo": "mininet",
+    "path": "mininet/link.py",
+    "contains": "def delayCmds( parent, delay=None, jitter=None"
+   }
+  ],
+  "PERFLOW:any": [
+   {
+    "repo": "mininet",
+    "path": "mininet/link.py",
+    "contains": "class TCLink"
+   }
+  ],
+  "CAPVAR:schedule": [
+   {
+    "repo": "mininet",
+    "path": "mininet/link.py",
+    "contains": "bw=None, delay=None, jitter=None, loss=None"
+   }
+  ],
+  "PATHVAR": [
+   {
+    "repo": "mininet",
+    "path": "mininet/link.py",
+    "contains": "bw=None, delay=None, jitter=None, loss=None"
+   }
+  ],
+  "XGEN": [
+   {
+    "repo": "mininet",
+    "path": "mininet/node.py",
+    "contains": "def cmd( self, *args, **kwargs )"
+   }
+  ],
+  "TOOL:*": [
+   {
+    "repo": "mininet",
+    "path": "mininet/node.py",
+    "contains": "def cmd( self, *args, **kwargs )"
+   }
+  ],
+  "TOOL:ping": [
+   {
+    "repo": "mininet",
+    "path": "mininet/net.py",
+    "contains": "def ping( self, hosts=None, timeout=None )"
+   }
+  ],
+  "qdiscs": [
+   {
+    "repo": "mininet",
+    "path": "mininet/link.py",
+    "contains": "enable_ecn=False, enable_red=False"
+   },
+   {
+    "repo": "mininet",
+    "path": "mininet/link.py",
+    "contains": "use_hfsc=False, use_tbf=False"
+   }
+  ],
+  "LOCAL": [
+   {
+    "repo": "mininet",
+    "path": "mininet/node.py",
+    "contains": "def cmd( self, *args, **kwargs )"
+   }
+  ],
+  "INET": [
+   {
+    "repo": "mininet",
+    "path": "mininet/net.py",
+    "contains": "def addNAT"
+   }
+  ]
+ },
+ "not_provided": "Trace replay needs a researcher-written script. No API sets the kernel's default congestion control (iperf3 -C selects it per socket for iperf senders). net.iperf() is one blocking test; competing flows are credited as concurrent iperf3 commands (packaged-tool rule)."
+}

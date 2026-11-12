@@ -1,0 +1,67 @@
+paper,citation
+abm,ABM: Active Buffer Management in Datacenters — SIGCOMM 2022.
+above_the_fold,"""A practical method for measuring Web above-the-fold time"" — da Hora, Rossi, Christophides, Teixeira, SIGCOMM'18 Demo."
+abr_separate_tracks,ABR Streaming with Separate Audio and Video Tracks: Measurements and Best Practices — CoNEXT '19.
+bbrv3,"Promises and Potential of BBRv3 — Zeynali, Weyulu, Fathalli, Chandrasekaran, Feldmann, PAM 2024."
+bones,BONES: Near-Optimal Neural-Enhanced Video Streaming — SIGMETRICS / POMACS 2024.
+cake,"Piece of CAKE: A Comprehensive Queue Management Solution for Home Gateways — Høiland-Jørgensen, Täht, Morton, IEEE LANMAN 2018."
+cambrian_quic,"Containing the Cambrian Explosion in QUIC Congestion Control — Mishra & Leong, IMC '23."
+cava,"CAVA: ABR Streaming of VBR-encoded Videos: Characterization, Challenges, and Solutions — CoNEXT 2018."
+ccanalzyer,"CCAnalyzer: An Efficient and Nearly-Passive Congestion Control Classifier — Ware et al., SIGCOMM '24."
+cclinguist,"CClinguist: An Expert-Free Framework for Future-Compatible Congestion Control Algorithm Identification — Li et al., SIGCOMM '25."
+cgsynth,CGSynth: Cloud Gaming Synthesizer — SIGCOMM Posters and Demos '25.
+cloud_overlays,"""Judicious QoS using Cloud Overlays"" (Haq, Doucette, Byers, Dogar, arXiv:1906.02562v3)."
+content_aware_retransmission,Poster: Content-aware Retransmission for Ultra-low-latency Video Streaming — SIGCOMM Posters and Demos '24.
+converge,"Converge: QoE-driven Multipath Video Conferencing over WebRTC — Mheidari et al., SIGCOMM 2023."
+decentralized_dns,"Reclaiming Privacy and Performance over Centralized DNS (Ónoma) — Rashna Kumar, Fabián E. Bustamante, Northwestern University. Extended arXiv version (arXiv:2302.13274v1) of the SIGCOMM'21 poster ""Decentralization, privacy and performance for DNS""."
+deep_ladder,Optimized Bitrate Ladders for Adaptive Video Streaming with Deep Reinforcement Learning (DeepLadder) — SIGCOMM '20 Demos and Posters.
+device_aware_abr,"Device-Aware Adaptive Video Streaming — Mok et al., SIGCOMM Posters and Demos 2019."
+device_qoe,"Impact of Device Performance on Mobile Internet QoE — Dasari et al., IMC 2018."
+diffrl,"Analyzing Symbolic Properties for DRL Agents in Systems and Networking (diffRL) — Zolfaghari et al., SIGMETRICS 2026 / arXiv:2604.04914."
+drop_the_packets,"Drop the Packets: Using Coarse-grained Data to detect Video Performance Issues — Bronzino et al., CoNEXT 2020."
+ecf,"ECF: An MPTCP Path Scheduler to Manage Heterogeneous Paths — Nikravesh et al., CoNEXT 2017."
+flowtele,"FlowTele: Remotely Shaping Traffic on Internet-Scale Networks — Liu et al., CoNEXT 2022."
+fusing_speed_index,Fusing Speed Index during Web Page Loading (SipLoader) — SIGMETRICS/POMACS 2022.
+gcp_netperf,Measuring the network performance of Google Cloud Platform — IMC 2021.
+ghosttwin,DEMO: The GhostTwin: Towards Live Digital Twins via SmartNIC Network Emulation — SIGCOMM Posters and Demos 2025.
+gmm_video_quality,Estimating Video Quality Using Coarse-Grained Features: Insights and Limitations from Gaussian Mixture Models — CoNEXT 2024.
+internet_congestion_management,Principles for Internet Congestion Management — SIGCOMM '24.
+intqoe,"IntQOE: Integrated End-to-end QoE Optimization for Edge Computing Enabled Web Application — Zhang, SIGCOMM NAI Workshop '21."
+mobile_video_icn,"""Enhancing Mobile Video Delivery over an Heterogeneous Network Access with Information-Centric Networking"" (SIGCOMM Posters and Demos '17)."
+mobile_vr_lte,"Supporting Mobile VR in LTE Networks: How Close Are We? — Abari et al., ACM SIGMETRICS / POMACS 2018."
+mpcc,"MPCC: Online Learning Multipath Transport — Gilad, Poese, et al., CoNEXT '20."
+mpls_tunnels,"Characterizing MPLS Tunnels over Internet Paths — [authors], IMC '25."
+multipath_scalable_video,Poster: Multi-Path Enabled Scalable Video Streaming — CoNEXT 2025 poster.
+mutant,"Mutant: Learning Congestion Control from Existing Protocols via Online Reinforcement Learning — Pappone, Sacco, Esposito, NSDI '25."
+ndt_rr,"Estimating WebRTC Video QoE Metrics Without Using Application Headers — Sharma, Mangla, Gupta, Jiang, Feamster, ACM IMC '23."
+netdiffusion,NetDiffusion: Network Data Augmentation Through Protocol-Constrained Traffic Generation — arXiv:2310.08543v1.
+netdpsyn,"NetDPSyn: Synthesizing Network Traces under Differential Privacy — [authors], IMC '24 / arXiv:2409.05249v1."
+netmircoscope,"Inferring Streaming Video Quality from Encrypted Traffic — Schmitt et al., SIGMETRICS/POMACS 2019."
+pcc,"PCC: Re-architecting Congestion Control for Consistent High Performance — Dong, Li, Zarchy, Godfrey, Schapira, NSDI '15 (arXiv 1409.7092v3)."
+perceiving_quic,"Perceiving QUIC: Do Users Notice or Even Care? — Rüth, Wolsing, Wehrle, Hohlfeld; CoNEXT '19 (arXiv:1910.07729v1)."
+ping_pair,"Informed Bandwidth Adaptation in Wi-Fi Networks using Ping-Pair — Das et al., CoNEXT 2017."
+pipheap,PipHeap: Approximate Heap in the Pipeline Empowering Network Measurement — IMC 2025.
+prudentia,"Prudentia: Findings of an Internet Fairness Watchdog — Philip et al., SIGCOMM '24."
+qoe_qos_realtime,"Characterizing the Relationship Between Application QoE and Network QoS for Real-Time Services — Mouhoub et al., SIGCOMM NAI '21."
+quicker_video_streaming,"Poster: Cross-layer metrics sharing for QUICker video streaming — Herbots et al., CoNEXT '20 student workshop/poster."
+quince,"QUINCE: A unified crowdsourcing-based QoE measurement platform — Mok, Kawaguti, claffy, SIGCOMM Posters and Demos '19."
+sage,"Computers Can Learn from the Heuristic Designs and Master Internet Congestion Control (system ""Sage"") — Yen, Abbasloo, Chao, SIGCOMM '23."
+sammy,"Sammy: smoothing video traffic to be a friendly internet neighbor — Spang et al., SIGCOMM '23."
+soda,"SODA: An Adaptive Bitrate Controller for Consistent High-Quality Video Streaming — Chen et al., SIGCOMM '24."
+strategic_data_collection,"Poster: Towards Network Model Generalization using Strategic Data Collection — Benjamin Hoffman, Alexander Dietmüller, Laurent Vanbever, ACM SIGCOMM 2025 Posters and Demos (doi:10.1145/3744969.3748407)."
+tcp_congestion_signatures,"TCP Congestion Signatures — Sundaresan, Dhamdhere, Allman, claffy — ACM IMC '17."
+three_bits,"Three Bits Suffice: Explicit Support for Passive Measurement of Internet Latency in QUIC and TCP — de Vaere et al., IMC 2018."
+tladder,"TLadder: QoE-Centric Video Ladder Optimization with Playback Feedback at Billion Scale — Li et al., SIGCOMM '25."
+too,"TOO: Accelerating Loss Recovery by Taming On-Off Traffic Patterns — Yan et al., SIGCOMM '23 (poster, 3 pp.)."
+umon,µMon: Empowering Microsecond-level Network Monitoring with Wavelets — SIGCOMM '24.
+user_controllable_congestion,POSTER: User-Controllable Congestion Mitigation for Low-Latency Applications — SIGCOMM '24.
+user_level_qoe,"""Towards User-level QoE: Large-scale Practice in Personalized Optimization of Adaptive Video Streaming (LingXi)"" — SIGCOMM 2025."
+user_platforms,"""Characterizing User Platforms for Video Streaming in Broadband Networks"" — Wang, Lyu, Sivaraman; IMC 2024 (arXiv:2408.16995v1)."
+vccanalyzer,"VCCAnalyzer: Identifying Congestion Control Algorithms used by Video Streaming Services — Kaneria, Ware, Seshan, Proc. ACM Netw. 3, CoNEXT4 (2025)."
+veritas,"""Veritas: Answering Causal Queries from Video Streaming Traces"" — SIGCOMM 2023 (arXiv:2208.12596)."
+web_qoe_encrypted,"Web Quality of Experience from Encrypted Packets — Huet et al., SIGCOMM Posters and Demos 2019 (3-page demo/extended abstract)."
+webrtc_live_streaming,"Harnessing WebRTC for Large-Scale Live Streaming — Douyin/ByteDance group, SIGCOMM 2025."
+wifi_bottlenecks,"Measuring the Prevalence of WiFi Bottlenecks in Home Access Networks — Sharma, Richardson, Martins, Feamster; arXiv:2311.05499v2 (IMC 2024)."
+wisely_short_video,"Wisely Optimizing Short Video Streaming for a User-Vendor Win-Win Outcome — SIGCOMM '25 (poster track, 3 pages)."
+xatu,Xatu: Richer Neural Network Based Prediction for Video Streaming — SIGCOMM '22 (full paper).
+xlink,XLINK: QoE-Driven Multi-Path QUIC Transport in Large-scale Video Services — SIGCOMM '21 (full paper).

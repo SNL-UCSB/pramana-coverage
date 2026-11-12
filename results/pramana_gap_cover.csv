@@ -1,0 +1,82 @@
+rank,artifact,newly_unblocked,cumulative_unblocked,experiments_needing_it
+1,several shaped links,12,12,38
+2,out-of-tree MPTCP kernel,12,24,23
+3,BBRv2 kernel,5,29,20
+4,BBRv3 kernel,8,37,11
+5,per-flow delay for generated and tool flows,8,45,12
+6,QUIC stack: xquic,5,50,10
+7,remote-host (SSH) connector,5,55,9
+8,residential vantage points,5,60,10
+9,Android app automation (ExoPlayer),4,64,4
+10,Android phones,4,68,18
+11,cellular access connector,5,73,13
+12,Wi-Fi access connector,6,79,12
+13,software-defined LTE/5G radio,5,84,5
+14,BBA player (Android),4,88,5
+15,CAIDA Ark,4,92,4
+16,SCION,4,96,4
+17,VPN exits,4,100,4
+18,cloud backend: GCP,4,104,9
+19,RIPE Atlas,3,107,3
+20,cloud backend (unnamed),3,110,3
+21,PCC (user-space),2,112,5
+22,QUIC stack: minq,2,114,2
+23,Tofino switches,2,116,3
+24,cloud backend: Azure,2,118,3
+25,phones and tablets,2,120,3
+26,real users,2,122,5
+27,customized Puffer,2,124,2
+28,research queue scheduler,2,126,2
+29,specific kernel version,2,128,2
+30,16 stock kernel algorithms,1,129,1
+31,Astraea,1,130,1
+32,BC schemes,1,131,2
+33,CGReplay,1,132,1
+34,Copa,1,133,3
+35,HyStart setting,1,134,1
+36,Inspector Gadget,1,135,2
+37,Gordon,1,136,1
+38,MulCubic,1,137,2
+39,Minerva,1,138,1
+40,NAS ABR,1,139,1
+41,QUIC stack: chromium,1,140,4
+42,QUIC stack: gquic,1,141,1
+43,QUIC stack: mvfst,1,142,4
+44,QUIC stack: quiche,1,143,4
+45,RDMA NIC testbed,1,144,1
+46,SABUL (UDT),1,145,2
+47,PCP,1,146,1
+48,Sage,1,147,2
+49,SmartNIC,1,148,1
+50,Speedchecker,1,149,1
+51,StreamTheater,1,150,1
+52,cloud backend: AWS,1,151,1
+53,datacenter hardware fabric,1,152,1
+54,host ECN setting,1,153,1
+55,modified BBR kernel,1,154,1
+56,operator vantage point,1,155,3
+57,cloud backend: DigitalOcean,2,157,2
+58,Indigo,0,157,3
+59,Aurora,1,158,2
+60,QUIC stack: lsquic,0,158,3
+61,QUIC stack: msquic,0,158,3
+62,QUIC stack: neqo,0,158,3
+63,QUIC stack: quic-go,0,158,3
+64,QUIC stack: quicly,0,158,3
+65,QUIC stack: quinn,0,158,3
+66,QUIC stack: s2n-quic,3,161,3
+67,C2TCP kernel patch,0,161,2
+68,LEDBAT,0,161,2
+69,Sprout,1,162,2
+70,M-RTP probe,0,162,2
+71,M-TPUT probe,2,164,2
+72,OnlineRL,0,164,2
+73,Orca kernel patch,0,164,2
+74,TaoVA (Remy),1,165,1
+75,Adaptech player,0,165,1
+76,BBA player (libdash),0,165,1
+77,PANDA player,1,166,1
+78,DeepCC kernel patch,0,166,1
+79,Genet,1,167,1
+80,TVs and consoles,0,167,1
+81,iOS devices,1,168,1

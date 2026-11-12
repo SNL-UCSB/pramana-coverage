@@ -1,0 +1,3 @@
+<!-- Agent prompt as run on 2026-10-21 (UTC), model claude-opus-5-5; batch 1 shown, batches 2-5 identical except the batch number. -->
+
+Working directory: needs/. Read REVIEW_BRIEF.md and BRIEF.md there and follow REVIEW_BRIEF.md exactly. N=1: review batch1.csv (experiments listed in batch1.json), write verified_batch1.csv. Paper files: corpus/extractions/<paper>.md. Check every row and every field against the source; do not trust the existing values.

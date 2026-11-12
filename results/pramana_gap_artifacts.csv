@@ -1,0 +1,435 @@
+es_id,type,value,artifact
+abr_sep-ES1,ANDROID_APP,ExoPlayer v2.10.2 (DASH),Android app automation (ExoPlayer)
+abr_sep-ES2,ANDROID_APP,ExoPlayer v2.10.2 (DASH; audio C-set),Android app automation (ExoPlayer)
+abr_sep-ES3,ANDROID_APP,ExoPlayer v2.10.2 (HLS; Hsub manifest),Android app automation (ExoPlayer)
+abr_sep-ES4,ANDROID_APP,ExoPlayer v2.10.2 (HLS; A1-first manifest),Android app automation (ExoPlayer)
+bbrv3-ES1,KERNEL_BUILD,BBRv2,BBRv2 kernel
+bbrv3-ES1,KERNEL_BUILD,BBRv3,BBRv3 kernel
+bbrv3-ES2,KERNEL_BUILD,BBRv2,BBRv2 kernel
+bbrv3-ES2,KERNEL_BUILD,BBRv3,BBRv3 kernel
+bbrv3-ES3,KERNEL_BUILD,BBRv2,BBRv2 kernel
+bbrv3-ES3,KERNEL_BUILD,BBRv3,BBRv3 kernel
+bbrv3-ES4,KERNEL_BUILD,BBRv2,BBRv2 kernel
+bbrv3-ES4,KERNEL_BUILD,BBRv3,BBRv3 kernel
+bbrv3-ES4,PERFLOW:any,,per-flow delay for generated and tool flows
+bbrv3-ES5,KERNEL_BUILD,BBRv2,BBRv2 kernel
+bbrv3-ES5,KERNEL_BUILD,BBRv3,BBRv3 kernel
+bbrv3-ES5,PERFLOW:any,,per-flow delay for generated and tool flows
+bbrv3-ES6,KERNEL_BUILD,BBRv2,BBRv2 kernel
+bbrv3-ES6,KERNEL_BUILD,BBRv3,BBRv3 kernel
+bbrv3-ES7,KERNEL_BUILD,BBRv2,BBRv2 kernel
+bbrv3-ES7,KERNEL_BUILD,BBRv3,BBRv3 kernel
+bbrv3-ES8,KERNEL_BUILD,BBRv2,BBRv2 kernel
+bbrv3-ES8,KERNEL_BUILD,BBRv3,BBRv3 kernel
+bbrv3-ES9,KERNEL_BUILD,BBRv2,BBRv2 kernel
+bbrv3-ES9,KERNEL_BUILD,BBRv3 each vs Cubic (half/half),BBRv3 kernel
+bones-ES8,USERSPACE_SW,NAS ABR and IMDN enhancer,NAS ABR
+cake-ES2,TOPO,,several shaped links
+cambrian_quic-ES1,USERSPACE_SW,QUIC stack: 11 stacks at Table-1 commits (Cubic; BBR; Reno variants),QUIC stack: chromium
+cambrian_quic-ES1,USERSPACE_SW,QUIC stack: 11 stacks at Table-1 commits (Cubic; BBR; Reno variants),QUIC stack: lsquic
+cambrian_quic-ES1,USERSPACE_SW,QUIC stack: 11 stacks at Table-1 commits (Cubic; BBR; Reno variants),QUIC stack: msquic
+cambrian_quic-ES1,USERSPACE_SW,QUIC stack: 11 stacks at Table-1 commits (Cubic; BBR; Reno variants),QUIC stack: mvfst
+cambrian_quic-ES1,USERSPACE_SW,QUIC stack: 11 stacks at Table-1 commits (Cubic; BBR; Reno variants),QUIC stack: neqo
+cambrian_quic-ES1,USERSPACE_SW,QUIC stack: 11 stacks at Table-1 commits (Cubic; BBR; Reno variants),QUIC stack: quic-go
+cambrian_quic-ES1,USERSPACE_SW,QUIC stack: 11 stacks at Table-1 commits (Cubic; BBR; Reno variants),QUIC stack: quiche
+cambrian_quic-ES1,USERSPACE_SW,QUIC stack: 11 stacks at Table-1 commits (Cubic; BBR; Reno variants),QUIC stack: quicly
+cambrian_quic-ES1,USERSPACE_SW,QUIC stack: 11 stacks at Table-1 commits (Cubic; BBR; Reno variants),QUIC stack: quinn
+cambrian_quic-ES1,USERSPACE_SW,QUIC stack: 11 stacks at Table-1 commits (Cubic; BBR; Reno variants),QUIC stack: s2n-quic
+cambrian_quic-ES1,USERSPACE_SW,QUIC stack: 11 stacks at Table-1 commits (Cubic; BBR; Reno variants),QUIC stack: xquic
+cambrian_quic-ES2,KERNEL_BUILD,BBR (v1) kernel with modified cwndgain 1.0-4.0,modified BBR kernel
+cambrian_quic-ES3,USERSPACE_SW,QUIC stack: Fig-11 implementation set,QUIC stack: chromium
+cambrian_quic-ES3,USERSPACE_SW,QUIC stack: Fig-11 implementation set,QUIC stack: lsquic
+cambrian_quic-ES3,USERSPACE_SW,QUIC stack: Fig-11 implementation set,QUIC stack: msquic
+cambrian_quic-ES3,USERSPACE_SW,QUIC stack: Fig-11 implementation set,QUIC stack: mvfst
+cambrian_quic-ES3,USERSPACE_SW,QUIC stack: Fig-11 implementation set,QUIC stack: neqo
+cambrian_quic-ES3,USERSPACE_SW,QUIC stack: Fig-11 implementation set,QUIC stack: quic-go
+cambrian_quic-ES3,USERSPACE_SW,QUIC stack: Fig-11 implementation set,QUIC stack: quiche
+cambrian_quic-ES3,USERSPACE_SW,QUIC stack: Fig-11 implementation set,QUIC stack: quicly
+cambrian_quic-ES3,USERSPACE_SW,QUIC stack: Fig-11 implementation set,QUIC stack: quinn
+cambrian_quic-ES3,USERSPACE_SW,QUIC stack: Fig-11 implementation set,QUIC stack: s2n-quic
+cambrian_quic-ES3,USERSPACE_SW,QUIC stack: Fig-11 implementation set,QUIC stack: xquic
+cambrian_quic-ES4,USERSPACE_SW,QUIC stack: pairwise of 23 QUIC CCA implementations,QUIC stack: chromium
+cambrian_quic-ES4,USERSPACE_SW,QUIC stack: pairwise of 23 QUIC CCA implementations,QUIC stack: lsquic
+cambrian_quic-ES4,USERSPACE_SW,QUIC stack: pairwise of 23 QUIC CCA implementations,QUIC stack: msquic
+cambrian_quic-ES4,USERSPACE_SW,QUIC stack: pairwise of 23 QUIC CCA implementations,QUIC stack: mvfst
+cambrian_quic-ES4,USERSPACE_SW,QUIC stack: pairwise of 23 QUIC CCA implementations,QUIC stack: neqo
+cambrian_quic-ES4,USERSPACE_SW,QUIC stack: pairwise of 23 QUIC CCA implementations,QUIC stack: quic-go
+cambrian_quic-ES4,USERSPACE_SW,QUIC stack: pairwise of 23 QUIC CCA implementations,QUIC stack: quiche
+cambrian_quic-ES4,USERSPACE_SW,QUIC stack: pairwise of 23 QUIC CCA implementations,QUIC stack: quicly
+cambrian_quic-ES4,USERSPACE_SW,QUIC stack: pairwise of 23 QUIC CCA implementations,QUIC stack: quinn
+cambrian_quic-ES4,USERSPACE_SW,QUIC stack: pairwise of 23 QUIC CCA implementations,QUIC stack: s2n-quic
+cambrian_quic-ES4,USERSPACE_SW,QUIC stack: pairwise of 23 QUIC CCA implementations,QUIC stack: xquic
+cambrian_quic-ES5,USERSPACE_SW,QUIC stack chromium (CUBIC modified: emulated flows 2 to 1),QUIC stack: chromium
+cambrian_quic-ES6,USERSPACE_SW,QUIC stack mvfst (BBR modified: pacing gain 1.25 to 1),QUIC stack: mvfst
+cambrian_quic-ES7,USERSPACE_SW,QUIC stack xquic (BBR modified: cwnd gain 2.5 to 2),QUIC stack: xquic
+cambrian_quic-ES8,USERSPACE_SW,QUIC stack quiche (CUBIC with RFC 8312 behavior disabled),QUIC stack: quiche
+cambrian_quic-ES9,SYSCTL,Cubic kernel with HyStart disabled,HyStart setting
+cambrian_quic-ES9,USERSPACE_SW,QUIC stack xquic (CUBIC unmodified),QUIC stack: xquic
+cava-ES3,ACCESS,cellular commercial LTE (coast-to-coast US drive),cellular access connector
+cava-ES3,DEVICES,phones/devices mobile phone,Android phones
+ccanalzyer-ES10,USERSPACE_SW,IG crawler (re-implemented; up to 500 links per site),Inspector Gadget
+ccanalzyer-ES8,CLOUD:azure,Azure East Apache server,cloud backend: Azure
+ccanalzyer-ES8,USERSPACE_SW,Gordon client,Gordon
+ccanalzyer-ES8,USERSPACE_SW,IG (Inspector Gadget) client,Inspector Gadget
+cclinguist-ES4,USERSPACE_SW,Astraea,Astraea
+cclinguist-ES4,USERSPACE_SW,PCC-Latency,PCC (user-space)
+cclinguist-ES4,USERSPACE_SW,PCC-Loss,PCC (user-space)
+cclinguist-ES5,USERSPACE_SW,PCC_Variant1,PCC (user-space)
+cclinguist-ES5,USERSPACE_SW,PCC_Variant2 (modified-parameter PCC),PCC (user-space)
+cclinguist-ES6,KERNEL_BUILD,ECN-based BBR-v2,BBRv2 kernel
+cclinguist-ES6,SYSCTL,ECN-based Cubic,host ECN setting
+cclinguist-ES6,SYSCTL,ECN-based DCTCP,host ECN setting
+cgsynth-ES1,USERSPACE_SW,CGReplay,CGReplay
+cloud-ES1,WAN_PLATFORM,RIPE Atlas,RIPE Atlas
+cloud-ES2,CLOUD:azure,Azure (US East; US West; EU; Asia; OC),cloud backend: Azure
+cloud-ES2,REMOTE_HOSTS,PlanetLab (45 wide-area paths),remote-host (SSH) connector
+cloud-ES3,TOPO,,several shaped links
+cloud-ES4,TOPO,,several shaped links
+cloud-ES5,ACCESS,cellular LTE (carrier not specified),cellular access connector
+cloud-ES5,ACCESS,phone tethered to sending host,Android phones
+cloud-ES6,ACCESS,T-Mobile (east and west),cellular access connector
+cloud-ES6,ACCESS,cellular LTE Verizon (east),cellular access connector
+cloud-ES6,CLOUD:azure,Microsoft,cloud backend: Azure
+cloud-ES6,CLOUD:gcp,Google,cloud backend: GCP
+converge-ES1,ACCESS,cellular T-Mobile,cellular access connector
+converge-ES1,ACCESS,cellular Verizon,cellular access connector
+converge-ES1,DEVICES,phones/devices (4 devices; mobility),Android phones
+converge-ES2,TOPO,,several shaped links
+converge-ES2,USERSPACE_SW,M-RTP,M-RTP probe
+converge-ES2,USERSPACE_SW,M-TPUT,M-TPUT probe
+converge-ES3,ACCESS,Wi-Fi,Wi-Fi access connector
+converge-ES3,ACCESS,cellular T-Mobile,cellular access connector
+converge-ES4,ACCESS,cellular T-Mobile 4G/5G,cellular access connector
+converge-ES4,ACCESS,cellular Verizon 4G/5G,cellular access connector
+converge-ES5,ACCESS,Wi-Fi (stationary/walking/driving),Wi-Fi access connector
+converge-ES5,ACCESS,cellular T-Mobile,cellular access connector
+converge-ES5,ACCESS,cellular Verizon,cellular access connector
+converge-ES6,TOPO,,several shaped links
+converge-ES7,TOPO,,several shaped links
+converge-ES8,TOPO,,several shaped links
+converge-ES8,USERSPACE_SW,M-RTP,M-RTP probe
+converge-ES8,USERSPACE_SW,M-TPUT,M-TPUT probe
+converge-ES9,ACCESS,Wi-Fi,Wi-Fi access connector
+converge-ES9,ACCESS,cellular T-Mobile,cellular access connector
+decentralized_dns-ES1,WAN_PLATFORM,RIPE Atlas (US probes),RIPE Atlas
+decentralized_dns-ES10,WAN_PLATFORM,VPN exits in selected countries (incl. US; India),VPN exits
+decentralized_dns-ES2,WAN_PLATFORM,RIPE Atlas,RIPE Atlas
+decentralized_dns-ES4,WAN_PLATFORM,Germany,VPN exits
+decentralized_dns-ES4,WAN_PLATFORM,India,VPN exits
+decentralized_dns-ES4,WAN_PLATFORM,US (NordVPN),VPN exits
+decentralized_dns-ES4,WAN_PLATFORM,VPN exits in Argentina,VPN exits
+decentralized_dns-ES8,WAN_PLATFORM,Germany,VPN exits
+decentralized_dns-ES8,WAN_PLATFORM,India,VPN exits
+decentralized_dns-ES8,WAN_PLATFORM,US (NordVPN),VPN exits
+decentralized_dns-ES8,WAN_PLATFORM,VPN exits in Argentina,VPN exits
+decentralized_dns-ES9,WAN_PLATFORM,US (NordVPN),VPN exits
+decentralized_dns-ES9,WAN_PLATFORM,VPN exits in Argentina,VPN exits
+ecf-ES2,DEVICES,phones/devices Google Nexus 5,Android phones
+ecf-ES2,KERNEL_BUILD,BLEST,out-of-tree MPTCP kernel
+ecf-ES2,KERNEL_BUILD,DAPS,out-of-tree MPTCP kernel
+ecf-ES2,KERNEL_BUILD,MPTCP v0.89 (coupled CC not named),out-of-tree MPTCP kernel
+ecf-ES2,KERNEL_BUILD,schedulers Default,out-of-tree MPTCP kernel
+ecf-ES2,TOPO,,several shaped links
+ecf-ES2,USERSPACE_SW,DASH video player on Android (buffer-based ABR of Huang et al.),BBA player (Android)
+ecf-ES3,DEVICES,phones/devices Google Nexus 5,Android phones
+ecf-ES3,KERNEL_BUILD,MPTCP v0.89 Default scheduler with CWND reset disabled (modified kernel),out-of-tree MPTCP kernel
+ecf-ES3,TOPO,,several shaped links
+ecf-ES3,USERSPACE_SW,DASH video player on Android (buffer-based ABR of Huang et al.),BBA player (Android)
+ecf-ES4,DEVICES,phones/devices Google Nexus 5,Android phones
+ecf-ES4,KERNEL_BUILD,MPTCP v0.89 (coupled CC not named),out-of-tree MPTCP kernel
+ecf-ES4,KERNEL_BUILD,schedulers Default,out-of-tree MPTCP kernel
+ecf-ES4,TOPO,,several shaped links
+ecf-ES4,USERSPACE_SW,DASH video player on Android (buffer-based ABR of Huang et al.),BBA player (Android)
+ecf-ES5,DEVICES,phones/devices Google Nexus 5,Android phones
+ecf-ES5,KERNEL_BUILD,BLEST,out-of-tree MPTCP kernel
+ecf-ES5,KERNEL_BUILD,DAPS,out-of-tree MPTCP kernel
+ecf-ES5,KERNEL_BUILD,MPTCP v0.89 (coupled CC not named),out-of-tree MPTCP kernel
+ecf-ES5,KERNEL_BUILD,schedulers Default,out-of-tree MPTCP kernel
+ecf-ES5,TOPO,,several shaped links
+ecf-ES5,USERSPACE_SW,DASH video player on Android (buffer-based ABR of Huang et al.),BBA player (Android)
+ecf-ES6,DEVICES,phones/devices Google Nexus 5,Android phones
+ecf-ES6,KERNEL_BUILD,BLEST,out-of-tree MPTCP kernel
+ecf-ES6,KERNEL_BUILD,DAPS,out-of-tree MPTCP kernel
+ecf-ES6,KERNEL_BUILD,MPTCP v0.89 (coupled CC not named),out-of-tree MPTCP kernel
+ecf-ES6,KERNEL_BUILD,schedulers Default,out-of-tree MPTCP kernel
+ecf-ES6,TOPO,,several shaped links
+ecf-ES7,DEVICES,phones/devices Google Nexus 5,Android phones
+ecf-ES7,KERNEL_BUILD,BLEST,out-of-tree MPTCP kernel
+ecf-ES7,KERNEL_BUILD,DAPS,out-of-tree MPTCP kernel
+ecf-ES7,KERNEL_BUILD,MPTCP v0.89 (coupled CC not named),out-of-tree MPTCP kernel
+ecf-ES7,KERNEL_BUILD,schedulers Default,out-of-tree MPTCP kernel
+ecf-ES7,TOPO,,several shaped links
+ecf-ES8,ACCESS,cellular AT&T LTE,cellular access connector
+ecf-ES8,ACCESS,public Wi-Fi (town),Wi-Fi access connector
+ecf-ES8,CLOUD:unnamed,cloud server in Washington D.C. (WDC),cloud backend (unnamed)
+ecf-ES8,DEVICES,phones/devices Android,Android phones
+ecf-ES8,KERNEL_BUILD,MPTCP v0.89 (coupled CC not named),out-of-tree MPTCP kernel
+ecf-ES8,KERNEL_BUILD,schedulers Default,out-of-tree MPTCP kernel
+ecf-ES8,USERSPACE_SW,DASH video player on Android (buffer-based ABR of Huang et al.),BBA player (Android)
+ecf-ES9,ACCESS,cellular AT&T LTE,cellular access connector
+ecf-ES9,ACCESS,public Wi-Fi (town),Wi-Fi access connector
+ecf-ES9,CLOUD:unnamed,cloud server in Washington D.C. (WDC),cloud backend (unnamed)
+ecf-ES9,DEVICES,phones/devices Android,Android phones
+ecf-ES9,KERNEL_BUILD,MPTCP v0.89 (coupled CC not named),out-of-tree MPTCP kernel
+ecf-ES9,KERNEL_BUILD,schedulers Default,out-of-tree MPTCP kernel
+flowtele-ES11,ACCESS,residential ISP (Illinois),residential vantage points
+flowtele-ES11,CLOUD:gcp,GCP Ohio,cloud backend: GCP
+flowtele-ES11,USERSPACE_SW,MulCubic (baseline),MulCubic
+flowtele-ES12,TOPO,,several shaped links
+flowtele-ES13,TOPO,,several shaped links
+flowtele-ES18,USERSPACE_SW,Minerva,Minerva
+flowtele-ES18,USERSPACE_SW,MulCubic,MulCubic
+flowtele-ES4,CLOUD:gcp,GCP Los Angeles,cloud backend: GCP
+flowtele-ES4,CLOUD:gcp,GCP Montréal (cross-traffic sender),cloud backend: GCP
+flowtele-ES4,PERFLOW:any,,per-flow delay for generated and tool flows
+flowtele-ES4,REAL_USERS,users in Illinois,real users
+flowtele-ES5,CLOUD:gcp,GCP Taiwan (cross-traffic sender),cloud backend: GCP
+flowtele-ES5,CLOUD:gcp,GCP Tokyo,cloud backend: AWS
+flowtele-ES5,PERFLOW:any,,per-flow delay for generated and tool flows
+flowtele-ES5,REAL_USERS,users in Taiwan,real users
+flowtele-ES6,KERNEL_BUILD,BBRv2,BBRv2 kernel
+flowtele-ES6,PERFLOW:any,,per-flow delay for generated and tool flows
+flowtele-ES7,REMOTE_HOSTS,GENI (Chicago InstaGENI to Illinois),remote-host (SSH) connector
+flowtele-ES8,REMOTE_HOSTS,GENI (Vermont InstaGENI to Texas InstaGENI),remote-host (SSH) connector
+flowtele-ES9,ACCESS,residential ISP (Illinois),residential vantage points
+flowtele-ES9,CLOUD:gcp,GCP Ohio,cloud backend: GCP
+fusing_speed_index-ES2,DEVICES,3 PCs + 2 smartphones on cellular LTE,phones and tablets
+fusing_speed_index-ES5,DEVICES,PCs + smartphones,phones and tablets
+gcp_netperf-ES1,CLOUD:gcp,GCP us-west1,cloud backend: GCP
+gcp_netperf-ES1,CLOUD:gcp,us-central1,cloud backend: GCP
+gcp_netperf-ES1,CLOUD:gcp,us-east1,cloud backend: GCP
+gcp_netperf-ES1,CLOUD:gcp,us-east4,cloud backend: GCP
+gcp_netperf-ES1,CLOUD:gcp,us-west2,cloud backend: GCP
+gcp_netperf-ES2,CLOUD:gcp,GCP VMs premium and standard tiers,cloud backend: GCP
+gcp_netperf-ES2,WAN_PLATFORM,Speedchecker vantage points (>10;000 networks),Speedchecker
+gcp_netperf-ES3,CLOUD:gcp,GCP us-west1,cloud backend: GCP
+gcp_netperf-ES3,CLOUD:gcp,us-central1 (premium tier),cloud backend: GCP
+gcp_netperf-ES3,CLOUD:gcp,us-east1,cloud backend: GCP
+gcp_netperf-ES3,CLOUD:gcp,us-east4,cloud backend: GCP
+gcp_netperf-ES3,CLOUD:gcp,us-west2,cloud backend: GCP
+gcp_netperf-ES4,CLOUD:gcp,GCP us-central1,cloud backend: GCP
+gcp_netperf-ES4,CLOUD:gcp,europe-west1 (premium and standard tiers),cloud backend: GCP
+gcp_netperf-ES4,CLOUD:gcp,us-east1,cloud backend: GCP
+ghosttwin-ES1,SPECIAL_HW,SmartNIC emulator (P7),SmartNIC
+ghosttwin-ES1,SPECIAL_HW,Tofino routers (EdgeCore Wedge 100-32X),Tofino switches
+icm-ES5,CUSTOM_QDISC,One-Hop,research queue scheduler
+mobile_vr_lte-ES1,ACCESS,cellular LTE (Verizon; AT&T; T-Mobile; Sprint),cellular access connector
+mobile_vr_lte-ES1,DEVICES,phones/devices with Gear VR and DayDream/Cardboard,Android phones
+mobile_vr_lte-ES1,USERSPACE_SW,StreamTheater (60 FPS 1080p VR streaming),StreamTheater
+mobile_vr_lte-ES2,ACCESS,cellular LTE (Verizon; AT&T; T-Mobile; Sprint),cellular access connector
+mobile_vr_lte-ES2,DEVICES,Nexus 6P,Android phones
+mobile_vr_lte-ES2,DEVICES,Pixel,Android phones
+mobile_vr_lte-ES2,DEVICES,Samsung S4,Android phones
+mobile_vr_lte-ES2,DEVICES,phones Samsung S7 Edge,Android phones
+mobile_vr_lte-ES3,SPECIAL_HW,USRP B210 + OpenAirInterface LTE testbed,software-defined LTE/5G radio
+mobile_vr_lte-ES4,SPECIAL_HW,USRP B210 + OpenAirInterface LTE testbed,software-defined LTE/5G radio
+mobile_vr_lte-ES5,SPECIAL_HW,USRP B210 + OpenAirInterface LTE testbed,software-defined LTE/5G radio
+mobile_vr_lte-ES6,SPECIAL_HW,USRP B210 + OpenAirInterface LTE testbed,software-defined LTE/5G radio
+mpcc-ES1,KERNEL_BUILD,BBR (v1) per MPTCP subflow (MPTCP 0.95),out-of-tree MPTCP kernel
+mpcc-ES1,TOPO,,several shaped links
+mpcc-ES10,KERNEL_BUILD,Balia,out-of-tree MPTCP kernel
+mpcc-ES10,KERNEL_BUILD,LIA,out-of-tree MPTCP kernel
+mpcc-ES10,KERNEL_BUILD,OLIA,out-of-tree MPTCP kernel
+mpcc-ES10,KERNEL_BUILD,wVegas,out-of-tree MPTCP kernel
+mpcc-ES10,TOPO,,several shaped links
+mpcc-ES11,KERNEL_BUILD,Balia,out-of-tree MPTCP kernel
+mpcc-ES11,KERNEL_BUILD,LIA,out-of-tree MPTCP kernel
+mpcc-ES11,KERNEL_BUILD,OLIA,out-of-tree MPTCP kernel
+mpcc-ES11,KERNEL_BUILD,wVegas,out-of-tree MPTCP kernel
+mpcc-ES11,TOPO,,several shaped links
+mpcc-ES12,KERNEL_BUILD,LIA,out-of-tree MPTCP kernel
+mpcc-ES12,KERNEL_BUILD,OLIA (MPTCP 0.95),out-of-tree MPTCP kernel
+mpcc-ES12,TOPO,,several shaped links
+mpcc-ES13,KERNEL_BUILD,LIA,out-of-tree MPTCP kernel
+mpcc-ES13,KERNEL_BUILD,OLIA (MPTCP 0.95),out-of-tree MPTCP kernel
+mpcc-ES13,TOPO,,several shaped links
+mpcc-ES14,ACCESS,cellular (USB tethering),cellular access connector
+mpcc-ES14,ACCESS,residential ISP (Israel;Boston;Illinois) Wi-Fi,Wi-Fi access connector
+mpcc-ES14,KERNEL_BUILD,Balia,out-of-tree MPTCP kernel
+mpcc-ES14,KERNEL_BUILD,LIA,out-of-tree MPTCP kernel
+mpcc-ES14,KERNEL_BUILD,OLIA,out-of-tree MPTCP kernel
+mpcc-ES14,KERNEL_BUILD,wVegas,out-of-tree MPTCP kernel
+mpcc-ES15,SPECIAL_HW,25 Gbps,datacenter hardware fabric
+mpcc-ES15,SPECIAL_HW,physical datacenter testbed: 6 switches + 6 hosts 2-layer Clos,datacenter hardware fabric
+mpcc-ES2,KERNEL_BUILD,Balia,out-of-tree MPTCP kernel
+mpcc-ES2,KERNEL_BUILD,LIA,out-of-tree MPTCP kernel
+mpcc-ES2,KERNEL_BUILD,OLIA,out-of-tree MPTCP kernel
+mpcc-ES2,KERNEL_BUILD,wVegas,out-of-tree MPTCP kernel
+mpcc-ES2,TOPO,,several shaped links
+mpcc-ES3,KERNEL_BUILD,Balia,out-of-tree MPTCP kernel
+mpcc-ES3,KERNEL_BUILD,LIA,out-of-tree MPTCP kernel
+mpcc-ES3,KERNEL_BUILD,OLIA,out-of-tree MPTCP kernel
+mpcc-ES3,KERNEL_BUILD,wVegas,out-of-tree MPTCP kernel
+mpcc-ES3,TOPO,,several shaped links
+mpcc-ES3,USERSPACE_SW,competitor: PCC Vivace (vs MPCC) or Reno (vs MPTCP),out-of-tree MPTCP kernel
+mpcc-ES4,KERNEL_BUILD,Balia,out-of-tree MPTCP kernel
+mpcc-ES4,KERNEL_BUILD,LIA,out-of-tree MPTCP kernel
+mpcc-ES4,KERNEL_BUILD,OLIA,out-of-tree MPTCP kernel
+mpcc-ES4,KERNEL_BUILD,wVegas,out-of-tree MPTCP kernel
+mpcc-ES4,TOPO,,several shaped links
+mpcc-ES5,KERNEL_BUILD,Balia,out-of-tree MPTCP kernel
+mpcc-ES5,KERNEL_BUILD,LIA,out-of-tree MPTCP kernel
+mpcc-ES5,KERNEL_BUILD,OLIA,out-of-tree MPTCP kernel
+mpcc-ES5,KERNEL_BUILD,wVegas,out-of-tree MPTCP kernel
+mpcc-ES5,TOPO,,several shaped links
+mpcc-ES5,USERSPACE_SW,competitor: PCC Vivace (vs MPCC) or Reno (vs MPTCP),out-of-tree MPTCP kernel
+mpcc-ES6,KERNEL_BUILD,Balia,out-of-tree MPTCP kernel
+mpcc-ES6,KERNEL_BUILD,LIA,out-of-tree MPTCP kernel
+mpcc-ES6,KERNEL_BUILD,OLIA,out-of-tree MPTCP kernel
+mpcc-ES6,KERNEL_BUILD,wVegas,out-of-tree MPTCP kernel
+mpcc-ES6,TOPO,,several shaped links
+mpcc-ES6,USERSPACE_SW,competitor: single-path PCC,PCC (user-space)
+mpcc-ES7,KERNEL_BUILD,Balia,out-of-tree MPTCP kernel
+mpcc-ES7,KERNEL_BUILD,LIA,out-of-tree MPTCP kernel
+mpcc-ES7,KERNEL_BUILD,OLIA,out-of-tree MPTCP kernel
+mpcc-ES7,KERNEL_BUILD,wVegas,out-of-tree MPTCP kernel
+mpcc-ES7,TOPO,,several shaped links
+mpcc-ES8,KERNEL_BUILD,Balia,out-of-tree MPTCP kernel
+mpcc-ES8,KERNEL_BUILD,LIA,out-of-tree MPTCP kernel
+mpcc-ES8,KERNEL_BUILD,OLIA,out-of-tree MPTCP kernel
+mpcc-ES8,KERNEL_BUILD,wVegas,out-of-tree MPTCP kernel
+mpcc-ES8,TOPO,,several shaped links
+mpcc-ES9,KERNEL_BUILD,Balia (MPTCP 0.95),out-of-tree MPTCP kernel
+mpcc-ES9,TOPO,,several shaped links
+mpls_tunnels-ES2,WAN_PLATFORM,CAIDA Ark (262 vantage points),CAIDA Ark
+mpls_tunnels-ES3,WAN_PLATFORM,CAIDA Ark (ITDK production; VP count not stated),CAIDA Ark
+mpls_tunnels-ES4,WAN_PLATFORM,CAIDA Ark (vantage points of the seed traceroutes),CAIDA Ark
+multipath_scalable_video-ES1,WAN_PLATFORM,SCION production network (ETH Zurich server to Switzerland receiver),SCION
+multipath_scalable_video-ES2,WAN_PLATFORM,SCIERA/SCION (ETH Zurich server to South Korea receiver),SCION
+multipath_scalable_video-ES4,WAN_PLATFORM,SCION production network (ETH Zurich to Switzerland receiver; 100 Mbps access link),SCION
+multipath_scalable_video-ES5,WAN_PLATFORM,SCIERA/SCION (ETH Zurich to South Korea receiver),SCION
+mutant-ES1,KERNEL_BUILD,BBRv2,BBRv2 kernel
+mutant-ES2,USERSPACE_SW,Sage (offline RL),Sage
+mutant-ES3,KERNEL_BUILD,BBRv2,BBRv2 kernel
+mutant-ES4,REMOTE_HOSTS,FABRIC (hosts across US and Europe),remote-host (SSH) connector
+mutant-ES7,KERNEL_BUILD,BBRv2,BBRv2 kernel
+mvicn-ES1,DEVICES,physical tablets and desktops,phones and tablets
+mvicn-ES1,TOPO,,several shaped links
+mvicn-ES1,USERSPACE_SW,Adaptech ABR,Adaptech player
+mvicn-ES1,USERSPACE_SW,DASH clients (libdash fork) with BBA,BBA player (libdash)
+mvicn-ES1,USERSPACE_SW,PANDA,PANDA player
+ndt_rr-ES2,ACCESS,residential ISP (Raspberry Pi in 15 households),residential vantage points
+ndt_rr-ES2,CLOUD:unnamed,cloud endpoint,cloud backend (unnamed)
+netmircoscope-ES1,ACCESS,residential ISP (6 vantage points: 3 homes 100/18/6 Mbps; student residence; campus apartment; rural home),residential vantage points
+netmircoscope-ES3b,ACCESS,residential ISP (66 homes: 60 US + 6 France) via Raspberry Pi/Odroid monitors,residential vantage points
+pcc-ES1,REMOTE_HOSTS,GENI (5 sites) + local server,remote-host (SSH) connector
+pcc-ES1,REMOTE_HOSTS,PlanetLab,remote-host (SSH) connector
+pcc-ES1,USERSPACE_SW,PCP,PCP
+pcc-ES1,USERSPACE_SW,SABUL,SABUL (UDT)
+pcc-ES2,REMOTE_HOSTS,GENI (9 site pairs),remote-host (SSH) connector
+pcc-ES2,USERSPACE_SW,SABUL,SABUL (UDT)
+pcc-ES5,PERFLOW:any,,per-flow delay for generated and tool flows
+perceiving_quic-ES1,USERSPACE_SW,QUIC stack gQUIC (Cubic;BBRv1),QUIC stack: gquic
+ping_pair-ES1,ACCESS,Wi-Fi testbed/APs (Netgear WNDR3800 OpenWRT),Wi-Fi access connector
+ping_pair-ES2,ACCESS,Wi-Fi APs (LinkSys; TP-Link; Cisco; D-Link; Aruba; TP-Link range extender),Wi-Fi access connector
+ping_pair-ES2,DEVICES,Android phone,Android phones
+ping_pair-ES3,DEVICES,phones Android,Android phones
+prudentia-ES1,PERFLOW:any,,per-flow delay for generated and tool flows
+prudentia-ES3,PERFLOW:any,,per-flow delay for generated and tool flows
+prudentia-ES4,PERFLOW:any,,per-flow delay for generated and tool flows
+prudentia-ES6,PERFLOW:any,,per-flow delay for generated and tool flows
+prudentia-ES7,KERNEL_BUILD,BBR (v1) on Linux 4.15 (iperf contender),specific kernel version
+prudentia-ES7,PERFLOW:any,,per-flow delay for generated and tool flows
+prudentia-ES8,KERNEL_BUILD,BBR on Linux 4.15 and Linux 5.15 (iperf contender),specific kernel version
+prudentia-ES8,PERFLOW:any,,per-flow delay for generated and tool flows
+qoe_qos_realtime-ES1,TOPO,,several shaped links
+qoe_qos_realtime-ES2,ACCESS,residential ISP (6 Paris home networks),residential vantage points
+sage-ES1,KERNEL_BUILD,BBR2,BBRv2 kernel
+sage-ES1,USERSPACE_SW,Copa,Copa
+sage-ES13,REMOTE_HOSTS,GENI (randomly selected remote server),remote-host (SSH) connector
+sage-ES14,KERNEL_BUILD,BBR2,BBRv2 kernel
+sage-ES14,USERSPACE_SW,Aurora,Aurora
+sage-ES14,USERSPACE_SW,Indigo,Indigo
+sage-ES15,KERNEL_BUILD,BBR2,BBRv2 kernel
+sage-ES16,CUSTOM_QDISC,BoDe,research queue scheduler
+sage-ES3,REMOTE_HOSTS,GENI (16 US cities),remote-host (SSH) connector
+sage-ES3,REMOTE_HOSTS,authors' servers,remote-host (SSH) connector
+sage-ES4,KERNEL_BUILD,BBR2,BBRv2 kernel
+sage-ES4,KERNEL_BUILD,C2TCP,C2TCP kernel patch
+sage-ES4,KERNEL_BUILD,Orca,Orca kernel patch
+sage-ES4,USERSPACE_SW,Copa,Copa
+sage-ES4,USERSPACE_SW,Indigo,Indigo
+sage-ES4,USERSPACE_SW,LEDBAT,LEDBAT
+sage-ES4,USERSPACE_SW,OnlineRL,OnlineRL
+sage-ES4,USERSPACE_SW,Sage,Sage
+sage-ES4,USERSPACE_SW,Sprout (+ NATCP as 'Optimal' reference),Sprout
+sage-ES4,USERSPACE_SW,TaoVA-100x,TaoVA (Remy)
+sage-ES4,USERSPACE_SW,Vivace,PCC (user-space)
+sage-ES5,KERNEL_BUILD,DeepCC,DeepCC kernel patch
+sage-ES5,KERNEL_BUILD,Orca,Orca kernel patch
+sage-ES5,KERNEL_BUILD,Orcav2,Orca kernel patch
+sage-ES5,USERSPACE_SW,Aurora,Aurora
+sage-ES5,USERSPACE_SW,BC,BC schemes
+sage-ES5,USERSPACE_SW,BC-top,BC schemes
+sage-ES5,USERSPACE_SW,BC-top3,BC schemes
+sage-ES5,USERSPACE_SW,BCv2,BC schemes
+sage-ES5,USERSPACE_SW,Genet,Genet
+sage-ES5,USERSPACE_SW,Indigo,Indigo
+sage-ES5,USERSPACE_SW,Indigov2,Indigo
+sage-ES5,USERSPACE_SW,OnlineRL,OnlineRL
+sage-ES5,USERSPACE_SW,PCC Vivace,PCC (user-space)
+sage-ES6,KERNEL_BUILD,BBR2,BBRv2 kernel
+sage-ES6,KERNEL_BUILD,C2TCP,C2TCP kernel patch
+sage-ES6,USERSPACE_SW,Copa,Copa
+sage-ES6,USERSPACE_SW,LEDBAT,LEDBAT
+sage-ES6,USERSPACE_SW,Sprout,Sprout
+sage-ES7,USERSPACE_SW,BC,BC schemes
+sage-ES9,KERNEL_BUILD,BBR2,BBRv2 kernel
+strategic_dc-ES1,REAL_USERS,real clients globally,real users
+strategic_dc-ES1,USERSPACE_SW,Puffer video streaming (customized),customized Puffer
+strategic_dc-ES2,REAL_USERS,real clients globally,real users
+strategic_dc-ES2,REMOTE_HOSTS,ETH Zurich server via NetUnicorn,remote-host (SSH) connector
+strategic_dc-ES2,USERSPACE_SW,Puffer video streaming (customized),customized Puffer
+tcp_congestion_signatures-ES1,TOPO,,several shaped links
+tcp_congestion_signatures-ES2,TOPO,,several shaped links
+tcp_congestion_signatures-ES3,TOPO,,several shaped links
+tcp_congestion_signatures-ES4,TOPO,,several shaped links
+tcp_congestion_signatures-ES6,WAN_PLATFORM,CAIDA Ark node in Comcast residential network (Bedford MA),CAIDA Ark
+three_bits-ES1,USERSPACE_SW,QUIC stack minq (draft-05),QUIC stack: minq
+three_bits-ES2,USERSPACE_SW,QUIC stack minq (draft-05),QUIC stack: minq
+three_bits-ES3,CLOUD:digitalocean,AMS3,cloud backend: DigitalOcean
+three_bits-ES3,CLOUD:digitalocean,BLR1,cloud backend: DigitalOcean
+three_bits-ES3,CLOUD:digitalocean,DigitalOcean NYC1,cloud backend: DigitalOcean
+three_bits-ES3,CLOUD:digitalocean,FRA1,cloud backend: DigitalOcean
+three_bits-ES3,CLOUD:digitalocean,LON1,cloud backend: DigitalOcean
+three_bits-ES3,CLOUD:digitalocean,SFO2,cloud backend: DigitalOcean
+three_bits-ES3,CLOUD:digitalocean,SGP1,cloud backend: DigitalOcean
+three_bits-ES3,OPERATOR_VANTAGE,on-campus observation node (VPP),operator vantage point
+three_bits-ES4,ACCESS,five European access networks (wired and wireless),Wi-Fi access connector
+three_bits-ES4,CLOUD:digitalocean,DigitalOcean VMs,cloud backend: DigitalOcean
+three_bits-ES4,OPERATOR_VANTAGE,on-campus observation node (VPP),operator vantage point
+umon-ES1,SPECIAL_HW,RDMA hardware testbed,RDMA NIC testbed
+umon-ES3,SPECIAL_HW,RDMA hardware testbed (Arista DCS-7060CX; Tofino2; two Xeon E5-2650 servers),Tofino switches
+umon-ES4,SPECIAL_HW,RDMA hardware testbed (Arista DCS-7060CX; Tofino2),Tofino switches
+uplat-ES1,ACCESS,Wi-Fi testbed/APs (lab access gateway),Wi-Fi access connector
+uplat-ES1,DEVICES,Android TV,TVs and consoles
+uplat-ES1,DEVICES,Android TV box,TVs and consoles
+uplat-ES1,DEVICES,Android phone,Android phones
+uplat-ES1,DEVICES,PlayStation,TVs and consoles
+uplat-ES1,DEVICES,iPad,iOS devices
+uplat-ES1,DEVICES,phones/devices iPhone,iOS devices
+uplat-ES2,ACCESS,residential ISP (author home network),residential vantage points
+uplat-ES2,DEVICES,phones/devices same set as lab,Android phones
+uplat-ES4,DEVICES,phones/devices lab set,Android phones
+uplat-ES4,OPERATOR_VANTAGE,campus network (university lab; border-router traffic copy to campus classifier),operator vantage point
+vccanalyzer-ES6,KERNEL_BUILD,BBRv3,BBRv3 kernel
+vccanalyzer-ES6,KSET:16,,16 stock kernel algorithms
+vccanalyzer-ES7,KERNEL_BUILD,bbrv3,BBRv3 kernel
+wifi_bottlenecks-ES1,ACCESS,Raspberry Pi wired to home router,residential vantage points
+wifi_bottlenecks-ES1,ACCESS,residential ISP (52 households Chicago area),residential vantage points
+wifi_bottlenecks-ES2,ACCESS,Raspberry Pi speedtest server at router,residential vantage points
+wifi_bottlenecks-ES2,ACCESS,Wi-Fi testbed/APs (participants' home Wi-Fi),Wi-Fi access connector
+wifi_bottlenecks-ES2,REAL_USERS,user devices,real users
+xatu-ES2,ACCESS,residential ISP (one home network),residential vantage points
+xlink-ES1,TOPO,,several shaped links
+xlink-ES1,USERSPACE_SW,QUIC stack XQUIC (multipath),QUIC stack: xquic
+xlink-ES4,TOPO,,several shaped links
+xlink-ES4,USERSPACE_SW,QUIC stack XQUIC (multipath),QUIC stack: xquic
+xlink-ES5,ACCESS,enterprise Wi-Fi,Wi-Fi access connector
+xlink-ES5,SPECIAL_HW,5G SA testbed,software-defined LTE/5G radio
+xlink-ES5,USERSPACE_SW,QUIC stack XQUIC (multipath),QUIC stack: xquic
+xlink-ES6,TOPO,,several shaped links
+xlink-ES6,USERSPACE_SW,QUIC stack XQUIC (multipath),QUIC stack: xquic
+xlink-ES9,KERNEL_BUILD,MPTCP,out-of-tree MPTCP kernel
+xlink-ES9,TOPO,,several shaped links
+xlink-ES9,USERSPACE_SW,QUIC stack XQUIC (SP; vanilla-MP; CM; XLINK),QUIC stack: xquic

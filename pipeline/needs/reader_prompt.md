@@ -1,0 +1,3 @@
+<!-- Agent prompt as run on 2026-10-21 (UTC), model claude-opus-5-5; batch 1 shown, batches 2-5 identical except the batch number. -->
+
+Working directory for this task: needs/. Read BRIEF.md there first and follow it exactly. Your experiments are listed in batch1.json (paper -> list of es_id). Paper files are in corpus/extractions/<paper>.md. Write exactly one CSV row per es_id listed (all of them, none extra) to needs/batch1.csv (same directory). Do not edit any other file. Final message under 150 words: how many rows, how many low-confidence rows, and any cannot-determine fields.

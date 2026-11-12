@@ -1,0 +1,31 @@
+{
+ "variant": "V1",
+ "experiments": 255,
+ "summary": {
+  "pramana": {
+   "NOT COVERED": 162,
+   "COVERED": 59,
+   "CANNOT-DETERMINE": 34
+  },
+  "netreplica": {
+   "NOT COVERED": 210,
+   "COVERED": 28,
+   "CANNOT-DETERMINE": 17
+  },
+  "mininet": {
+   "NOT COVERED": 213,
+   "COVERED": 23,
+   "CANNOT-DETERMINE": 19
+  },
+  "netunicorn": {
+   "NOT COVERED": 233,
+   "CANNOT-DETERMINE": 14,
+   "COVERED": 8
+  },
+  "netgent": {
+   "NOT COVERED": 239,
+   "COVERED": 2,
+   "CANNOT-DETERMINE": 14
+  }
+ }
+}
