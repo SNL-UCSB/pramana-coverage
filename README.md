@@ -54,6 +54,26 @@ offline computation.
 Checking applications by name against each system's workflow list instead of by type (decision D3) gives
 Pramana 46. `rule/RULE.md` states the rule, every convention, and the sensitivity variants.
 
+## Citing
+
+If you use the corpus or the coverage results, please cite the paper:
+
+```bibtex
+@inproceedings{daneshamooz2026pramana,
+  title     = {Pramana: A Composable, Domain-Specific Backend
+               for Empirical Networking Research},
+  author    = {Daneshamooz, Jaber and Vuong, Eugene and Ramanathan, Alagappan
+               and Moghimi, Manni and Manda, Haarika and Kumar, Satyam
+               and Thode, Snithik and Guthula, Satyandra and Beltiukov, Sylee
+               and Han, Dongsu and Mangla, Tarun and Abdu Jyothi, Sangeetha
+               and Willinger, Walter and Gupta, Arpit},
+  booktitle = {Proceedings of the 25th ACM Workshop on Hot Topics in Networks},
+  series    = {HotNets '26},
+  address   = {Salt Lake City, UT, USA},
+  year      = {2026}
+}
+```
+
 ## Licenses
 
 Code: MIT. Data, prompts, and sheets: CC BY 4.0. Quotations remain their authors' and are short excerpts

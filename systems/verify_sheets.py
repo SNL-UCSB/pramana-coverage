@@ -17,6 +17,8 @@ def git(repo_dir, *args):
 
 def repo_dir(url):
     d = os.path.join(cache, url.rstrip('/').split('github.com/')[-1].replace('/', '_'))
+    if os.path.isdir(d) and git(d, 'rev-parse', '--verify', '-q', 'HEAD').returncode != 0:
+        subprocess.run(['rm', '-rf', d], check=True)   # an interrupted clone leaves an empty repo
     if not os.path.isdir(d):
         subprocess.run(['git', 'clone', '-q', url, d], check=True)
     return d
